@@ -13,7 +13,7 @@ scripts:
 
 # Build settings
 markdown: kramdown
-theme: uswds-jekyll
+remote_theme: uswds-jekyll
 
 include:
   - '_pages'
