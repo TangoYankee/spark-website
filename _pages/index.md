@@ -1,6 +1,68 @@
 ---
+title: Home
+permalink: '/'
+
+layout: home
+
+hero:
+  image: /assets/images/spark-logo-crop.png
+  callout:
+    alt: "Inaugural Hub:"
+    text: Role model for future initiatives
+  button:
+    href: /news/
+    text: Learn More
+  <!-- link:
+    text: 60 AMW Phoenix Spark Charter
+    href: /link/ -->
+  content: Build a 'team of teams' to increase innovation capacity across the DoD
+
+
+tagline: Innovations by the Warfighter, for the Warfighter
+intro: |
+  The Phoenix Spark program is a grassroots innovation program whose mission is to bring tomorrow’s tools to the Warfighter today.  
+  
+  We form collaborative partnerships between the military’s operational experts and the top problem solvers in industry, academia, and government agencies. 
+  
+graphics:
+  - image:
+      src: /assets/uswds/img/circle-124.png
+      alt: ''
+    title: Tools for the Warfighter
+    description: Identifying a problem set and creating, prototyping, experimenting, and/or fielding the hardware/software solutions
+  - image:
+      src: /assets/uswds/img/circle-124.png
+      alt: ''
+    title: Collaborative Research
+    description:  Developing hypotheses, theses, or problem statements for analysis by an academic institute or consultant group
+  - image:
+      src: /assets/uswds/img/circle-124.png
+      alt: ''
+    title: Interest Areas
+    description: Artificial intelligence, Robotics, Operations Research, 3D-Printing
+  - image:
+      src: /assets/uswds/img/circle-124.png
+      alt: ''
+    title: Knowledge Exchange
+    description: Providing academic or practical opportunities for individual or organizational learning
+---
+
+<h2>Our Role</h2>
+
+<p class="usa-font-lead">
+  Phoenix Spark creates unique opportunities for external partners to work directly with military operators on interesting problems and allows for the fielding of solutions that have a direct impact on the Air Force’s mission.  
+  It has established its first innovation hub at Travis Air Force Base, CA the largest military installation in Northern California.  This unique location links a diverse military mission with regional expertise.
+</p>
+
+<a class="usa-button usa-button-big" href="/events/#weekly-meeting">
+  Join Us
+</a>
+
+
+<!-- ---
 layout: home
 permalink: '/'
+# permalink: '/index'
 
 tagline: Open Source at DoD
 
@@ -51,4 +113,4 @@ This initiative is not intended to set DoD policy, but rather is exploring alter
     </a>
   </li>
   {% endfor %}
-</ul>
+</ul> -->

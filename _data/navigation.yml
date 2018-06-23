@@ -1,19 +1,37 @@
-top:
-  - text: Why Open Source
-    href: /why-open-source.html
-  - text: Getting Started
-    href: /getting-started.html
-  - text: How to Open Source
-    href: /how-to-open-source.html
-  - text: FAQs
-    href: /frequently-asked-questions.html
+primary:
+  - text: Events
+    href: /events/
+  - text: In the News
+    href: /news/
 
-side:
-  - text: Why Open Source
-    href: /why-open-source.html
-  - text: Getting Started
-    href: /getting-started.html
-  - text: How to Open Source
-    href: /how-to-open-source.html
-  - text: FAQs
-    href: /frequently-asked-questions.html
+events:
+  - text: Weekly Meeting
+    href: /events/#weekly-meeting
+  - text: Corporate Visits
+    href: /events/#corporate-visits
+
+news:
+  - text: Headline One
+    href: /news/#headline-one
+  - text: Headline Two
+    href: /news/#headline-two
+
+# top:
+#   - text: Why Open Source
+#     href: /why-open-source.html
+#   - text: Getting Started
+#     href: /getting-started.html
+#   - text: How to Open Source
+#     href: /how-to-open-source.html
+#   - text: FAQs
+#     href: /frequently-asked-questions.html
+
+# side:
+#   - text: Why Open Source
+#     href: /why-open-source.html
+#   - text: Getting Started
+#     href: /getting-started.html
+#   - text: How to Open Source
+#     href: /how-to-open-source.html
+#   - text: FAQs
+#     href: /frequently-asked-questions.html
