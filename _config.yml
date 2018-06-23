@@ -18,6 +18,9 @@ remote_theme: uswds-jekyll
 include:
   - '_pages'
 
+plugins:
+  - 'jekyll-remote-theme 
+
 exclude:
   - 'build'
   - 'Gemfile'
