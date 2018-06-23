@@ -16,15 +16,15 @@
 }
 
 .usa-link-trello {
-  background-image: url('/spark-website/assets/images/trello-logo.png');
+  background-image: url('../images/trello-logo.png');
 }
 
 .usa-link-slack {
-  background-image: url('/assets/images/slack-logo.png');
+  background-image: url('../images/slack-logo.png');
 }
 
 .usa-link-linkedin {
-  background-image: url('/assets/images/linkedin-logo.png');
+  background-image: url('../images/linkedin-logo.png');
 }
 
 /* .usa-footer-contact-links .usa-link-generic {
