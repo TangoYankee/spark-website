@@ -12,11 +12,11 @@ sidenav: events
 #     href: '#section-two'
 ---
 <a name="weekly-meeting"></a>
-# Weekly Meeting
+## Weekly Meeting
 
 This is some content.
 
 <a name="corporate-visits"></a>
-# Corporate Visits
+## Corporate Visits
 
 This is some more content.

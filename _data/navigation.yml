@@ -3,18 +3,34 @@ primary:
     href: /events/
   - text: In the News
     href: /news/
+  - text: Contact Us
+    href: /contact/
 
 events:
+  - text: Heading
+    href: /events/
   - text: Weekly Meeting
     href: /events/#weekly-meeting
   - text: Corporate Visits
     href: /events/#corporate-visits
 
 news:
+  - text: Heading
+    href: /news/
   - text: Headline One
     href: /news/#headline-one
   - text: Headline Two
     href: /news/#headline-two
+
+contact:
+  - text: Heading
+    href: /contact/
+  - text: Personal Information
+    href: /contact/#personal-information
+  - text: Organization Information
+    href: /contact/#organization-information
+  - text: Areas of Interest
+    href: /contact/#interest-areas
 
 # top:
 #   - text: Why Open Source
