@@ -12,11 +12,11 @@ sidenav: news
 #     href: '#section-two'
 ---
 <a name="headline-one"></a>
-# Headline One
+## Headline One
 
 This is some content.
 
 <a name="headline-one"></a>
-# Headline Two
+## Headline Two
 
 This is some more content.
