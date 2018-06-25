@@ -15,14 +15,14 @@ hero:
   <!-- link:
     text: 60 AMW Phoenix Spark Charter
     href: /link/ -->
-  content: Accelerating Problem Solving Across the DoD
+  content: “If in peacetime we tell every Airman how to do everything, how can we possibly expect, in wartime, we will suddenly be able to take the initiative and prevail in highly contested combat?” –Secretary Heather Wilson
 
 
 tagline: Innovations by the Warfighter, for the Warfighter
 intro: |
-  Established in 2016, Phoenix Spark is a grassroots innovation program. Our mission is to bring tomorrow’s tools to the warfighter today.  
+  Established in January 2016, Travis AFB is home to the first USAF Phoenix Spark Innovation Hub. Our role is to empower and encourage Airmen to solve problems at the grassroots level. Through our efforts, we envision an Air Force with innovation ingrained into its culture.   
   
-  We bring the military’s operational experts together with leaders from industry, academia, and government agencies. 
+  Situated just outside Silicon Valley, we have an unique opportunity to learn from world-class leaders in technical development and management. As the first hub of its kind, our experiences will serve as a model for futures Phoenix Spark Hubs. Join us today!
   
 graphics:
   - image:
