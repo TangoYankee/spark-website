@@ -7,57 +7,53 @@ layout: home
 hero:
   image: /assets/images/spark-logo-crop.png
   callout:
-    alt: "Inaugural Hub:"
-    text: Role model for future initiatives
+    alt: "Travis AFB:"
+    text: Phoenix Spark Hub for Innovation
   button:
-    href: /news/
-    text: Learn More
+    href: /events/#weekly-meeting
+    text: Join US
   <!-- link:
     text: 60 AMW Phoenix Spark Charter
     href: /link/ -->
-  content: Build a 'team of teams' to increase innovation capacity across the DoD
+  content: “If in peacetime we tell every Airman how to do everything, how can we possibly expect, in wartime, we will suddenly be able to take the initiative and prevail in highly contested combat?” –Secretary Heather Wilson
 
 
 tagline: Innovations by the Warfighter, for the Warfighter
 intro: |
-  The Phoenix Spark program is a grassroots innovation program whose mission is to bring tomorrow’s tools to the Warfighter today.  
+  Established in January 2016, Travis AFB is home to the first USAF Phoenix Spark Innovation Hub. Our role is to empower and encourage Airmen to solve problems at the grassroots level. Through our efforts, we envision an Air Force with innovation ingrained into its culture.   
   
-  We form collaborative partnerships between the military’s operational experts and the top problem solvers in industry, academia, and government agencies. 
+  Situated just outside Silicon Valley, we have an unique opportunity to learn from world-class leaders in technical development and management. As the first hub of its kind, our experiences will serve as a model for futures Phoenix Spark Hubs. Join us today!
   
 graphics:
   - image:
       src: /assets/uswds/img/circle-124.png
       alt: ''
-    title: Tools for the Warfighter
-    description: Identifying a problem set and creating, prototyping, experimenting, and/or fielding the hardware/software solutions
+    title: Technological Solutions
+    description: Implementing advances in 3D-Printing, Robotics, and Data Analysis; Positioning the Air Force at the cutting edge of technology.
   - image:
       src: /assets/uswds/img/circle-124.png
       alt: ''
-    title: Collaborative Research
-    description:  Developing hypotheses, theses, or problem statements for analysis by an academic institute or consultant group
+    title: Operational Research
+    description:  Encouraging experimentation and embracing failure as learning opportunities; Expanding the boundaries of what is possible.
   - image:
       src: /assets/uswds/img/circle-124.png
       alt: ''
-    title: Interest Areas
-    description: Artificial intelligence, Robotics, Operations Research, 3D-Printing
+    title: Cross-Industry Collaboration
+    description: Building relationships with private and public organizations; Learning and growing through these partnerships.  
   - image:
       src: /assets/uswds/img/circle-124.png
       alt: ''
-    title: Knowledge Exchange
-    description: Providing academic or practical opportunities for individual or organizational learning
+    title: Educational Opportunities
+    description: Enhancing the knowledge of each Airman; Providing the capability to overcome challenges as they arise on the frontline.
 ---
-
-<h2>Our Role</h2>
-
+<!-- <h2>Our Role</h2>
 <p class="usa-font-lead">
   Phoenix Spark creates unique opportunities for external partners to work directly with military operators on interesting problems and allows for the fielding of solutions that have a direct impact on the Air Force’s mission.  
   It has established its first innovation hub at Travis Air Force Base, CA the largest military installation in Northern California.  This unique location links a diverse military mission with regional expertise.
 </p>
-
 <a class="usa-button usa-button-big" href="/events/#weekly-meeting">
   Join Us
-</a>
-
+</a> -->
 
 <!-- ---
 layout: home
