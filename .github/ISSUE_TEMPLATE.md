@@ -1,24 +1,15 @@
-<!--
-Please:
-* Search for duplicate issues before submitting
-   * https://github.com/TravisSpark/spark-website/issues
-* Choose a clear and concise name 
-* Indicate whether it is a bug or a feature 
-* Be specific in describing the issue
-* Split different bugs/features into different issues
-* Assign the issue to an appropriate project
-* Assign contributors as appropriate
-* Apply appropriate labels
--->
-
+### Checklist
+ - [ ] Searched for, and did not find, duplicate [issue](https://github.com/TravisSpark/spark-website/issues)
+ - [ ] Indicated whether the issue is a bug or a feature
+ - [ ] Focused on one specific bug/feature
+ - [ ] Gave a concise and relevant name
+ - [ ] Created clear and concise description
+ - [ ] Outlined which components are affected
+ - [ ] Assigned issue to project, appropriate contributors, and relevant labels
+ 
 <!-- Edit as Appropriate -->
-## Description of Bug/Feature <!-- Pick one -->
+### Issue Type: Bug/Feature <!-- Pick one -->
 
+### Description
 
-## Component(s) Affected
-
-
-## Screenshot/Mock <!-- Pick one -->
-
-
-## Suggested Checklist/Implementation Process
+### Affected Components
