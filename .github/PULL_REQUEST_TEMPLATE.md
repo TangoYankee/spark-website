@@ -1,13 +1,17 @@
-## Issue: <!-- #SOURCE_ISSUE -->
+## Checklist
+ - [ ] Created clear and concise Name
+ - [ ] Focused on one issue
+ - [ ] Passed Travis checks
+ - [ ] Referenced issue number and title
+ - [ ] Described implementation/solution
+ - [ ] Asked for review
+   - spark-website team
+   - appropriate contributor
 
-## Approach
+## Issue:
+ - Number:
+ - Title:
 
-<!-- Describe what you did and why -->
+## Implementation/Solution
 
-<!--
-Please:
-* Clearly and concisely name your PR
-* Split different bugs/features into different PRs
-* Ask Code-dot-mil/code-mil for review
-* Ensure the checks pass before asking for review
--->
+
