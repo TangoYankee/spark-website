@@ -1,18 +1,24 @@
-## Bug/Feature <!-- Pick one -->
+<!--
+Please:
+* Search for duplicate issues before submitting
+   * https://github.com/TravisSpark/spark-website/issues
+* Choose a clear and concise name 
+* Indicate whether it is a bug or a feature 
+* Be specific in describing the issue
+* Split different bugs/features into different issues
+* Assign the issue to an appropriate project
+* Assign contributors as appropriate
+* Apply appropriate labels
+-->
 
-<!-- Summarize how the bug can be reproduced (including browser make/model) or the functionality requested -->
+<!-- Edit as Appropriate -->
+## Description of Bug/Feature <!-- Pick one -->
 
-## Page(s) Affected
 
-<!-- https://code.mil/... -->
+## Component(s) Affected
+
 
 ## Screenshot/Mock <!-- Pick one -->
 
-<!-- Insert an image of the bug or sketch of the feature if relevent` -->
 
-<!--
-Please:
-* Clearly and concisely name your issue
-* Search for duplicate issues https://github.com/Code-dot-mil/code.mil/issues
-* Split different bugs/features into different issues
--->
+## Suggested Checklist/Implementation Process
