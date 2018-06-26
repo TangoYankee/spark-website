@@ -1,4 +1,4 @@
-## Checklist
+### Checklist
  - [ ] Created clear and concise name
  - [ ] Focused on one issue
  - [ ] Passed Travis checks
@@ -8,10 +8,10 @@
    - spark-website team
    - appropriate contributor
 
-## Issue:
+### Issue:
  - Number:
  - Title:
 
-## Implementation/Solution
+### Implementation/Solution
 
 
