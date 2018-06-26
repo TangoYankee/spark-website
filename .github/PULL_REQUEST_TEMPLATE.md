@@ -1,5 +1,5 @@
 ## Checklist
- - [ ] Created clear and concise Name
+ - [ ] Created clear and concise name
  - [ ] Focused on one issue
  - [ ] Passed Travis checks
  - [ ] Referenced issue number and title
