@@ -22,7 +22,7 @@ tagline: Innovations by the Warfighter, for the Warfighter
 intro: |
   Established in January 2016, Travis AFB is home to the first USAF Phoenix Spark Innovation Hub. Our role is to empower and encourage Airmen to solve problems at the grassroots level. Through our efforts, we envision an Air Force with innovation ingrained into its culture.   
   
-  Situated just outside Silicon Valley, we have an unique opportunity to learn from world-class leaders in technical development and management. As the first hub of its kind, our experiences will serve as a model for futures Phoenix Spark Hubs. Join us today!
+  Situated just outside Silicon Valley, we have an unique opportunity to learn from world-class leaders in technical development and management. As the first hub of its kind, our experiences will serve as a model for future Phoenix Spark Hubs. Join us today!
   
 graphics:
   - image:
