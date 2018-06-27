@@ -27,22 +27,22 @@ intro: |
 graphics:
   - image:
       src: /assets/uswds/img/circle-124.png
-      alt: ''
+      alt: 'blue circle'
     title: Tools for the Warfighter
     description: Identifying a problem set and creating, prototyping, experimenting, and/or fielding the hardware/software solutions
   - image:
       src: /assets/uswds/img/circle-124.png
-      alt: ''
+      alt: 'blue circle'
     title: Collaborative Research
     description:  Developing hypotheses, theses, or problem statements for analysis by an academic institute or consultant group
   - image:
       src: /assets/uswds/img/circle-124.png
-      alt: ''
+      alt: 'blue circle'
     title: Interest Areas
     description: Artificial intelligence, Robotics, Operations Research, 3D-Printing
   - image:
       src: /assets/uswds/img/circle-124.png
-      alt: ''
+      alt: 'blue circle'
     title: Knowledge Exchange
     description: Providing academic or practical opportunities for individual or organizational learning
 ---
