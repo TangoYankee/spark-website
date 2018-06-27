@@ -27,24 +27,24 @@ intro: |
 graphics:
   - image:
       src: /assets/uswds/img/circle-124.png
-      alt: ''
-    title: Technological Solutions
-    description: Implementing advances in 3D-Printing, Robotics, and Data Analysis; Positioning the Air Force at the cutting edge of technology.
+      alt: 'blue circle'
+    title: Tools for the Warfighter
+    description: Identifying a problem set and creating, prototyping, experimenting, and/or fielding the hardware/software solutions
   - image:
       src: /assets/uswds/img/circle-124.png
-      alt: ''
-    title: Operational Research
-    description:  Encouraging experimentation and embracing failure as learning opportunities; Expanding the boundaries of what is possible.
+      alt: 'blue circle'
+    title: Collaborative Research
+    description:  Developing hypotheses, theses, or problem statements for analysis by an academic institute or consultant group
   - image:
       src: /assets/uswds/img/circle-124.png
-      alt: ''
-    title: Cross-Industry Collaboration
-    description: Building relationships with private and public organizations; Learning and growing through these partnerships.  
+      alt: 'blue circle'
+    title: Interest Areas
+    description: Artificial intelligence, Robotics, Operations Research, 3D-Printing
   - image:
       src: /assets/uswds/img/circle-124.png
-      alt: ''
-    title: Educational Opportunities
-    description: Enhancing the knowledge of each Airman; Providing the capability to overcome challenges as they arise on the frontline.
+      alt: 'blue circle'
+    title: Knowledge Exchange
+    description: Providing academic or practical opportunities for individual or organizational learning
 ---
 <!-- <h2>Our Role</h2>
 <p class="usa-font-lead">
