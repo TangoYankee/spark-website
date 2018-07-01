@@ -1,0 +1,68 @@
+#form data
+google-forms:
+  action-link: https://docs.google.com/forms/d/e/1FAIpQLSdTDqh0WWT3WccMbaW_C2hW6fR-QKex5qTx3f30CIOcXieeKA/formResponse
+  home-link: https://docs.google.com/forms
+  message: 'This service is provided by: '
+  text: Google Forms
+
+personal-name:
+  id: personal-name
+  text: Name
+  name: entry.2005620554
+
+personal-email: 
+  id: personal-email
+  text: Email
+  name: entry.1045781291
+
+organization-name:
+  id: organization-name
+  text: Organization Name
+  name: entry.1166974658  
+
+organization-type:
+  id: organization-type
+  text: Type of Organization
+  name: entry.1875847283    
+  types:
+    - Department of Defense
+    - Government (Non DoD)   
+    - Academia
+    - Non-Profit   
+    - Commercial Industry
+    - Other
+
+interest-areas:
+  id: interest-areas
+  text: Topics
+  legend: Interest Areas
+  name: entry.521051122
+  areas:
+    - Open Source Software
+    - Machine Learning
+    - Virtual Reality
+    - Automation & Robotics
+    - 3D-Printing
+    - Manufacturing
+    - Operational Management Theory
+
+user-message:
+  id: user-message
+  text: Message
+  name: entry.839337160
+
+#  - title: Defense Digital Service revamps Code.mil with clearer, more accessible guidance
+#    press_url: https://www.fedscoop.com/defense-digital-service-revamps-code-mil-clearer-accessible-guidance/
+#    author: FedScoop
+
+#  - title: Amid congressional mandate to open source DoD’s software code, Code.mil serves as guidepost
+#    press_url: https://federalnewsradio.com/on-dod/2018/03/amid-congressional-mandate-to-open-source-dods-software-code-code-mil-serves-as-guidepost/
+#    author: Federal News Radio
+
+#  - title: Defense Department (Re)Launches Open Source Software Portal
+#    press_url: https://www.nextgov.com/it-modernization/2018/02/defense-department-relaunches-open-source-software-portal/146061/
+#    author: Nextgov
+
+#  - title: Code.mil, the Pentagon’s open-source initiative, is live
+#    press_url: https://www.fedscoop.com/code-mil-pentagons-open-source-initiative-live/
+#    author: FedScoop
