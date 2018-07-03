@@ -1,0 +1,36 @@
+- title: Phoenix Spark innovates fleet-wide C-17 EFB mount
+  author: 2nd Lt. Sarah Johnson
+  org: 60th Air Mobility Wing Public Affairs
+  date: 2017-09-08 #YYYY-MM-DD
+  desc: <ol>
+   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+   <li>Aenean non mi vestibulum, commodo lacus ut, vehicula sem.</li>
+   <li>In id lectus id velit ultricies elementum.</li>
+   <li>Nam ut justo non arcu pretium interdum non ac felis.</li>
+   </ol>
+  press_link: http://www.travis.af.mil/News/Article/1304192/phoenix-spark-innovates-fleet-wide-c-17-efb-mount/
+  section: Technology
+
+- title: Travis hosts STEAM competition for local high schools
+  author: Airman 1st Class Christian Conrad
+  org: Air Mobility Wing Public Affairs
+  date: 2018-05-29 #YYYY-MM-DD
+  desc: SNam mi urna, cursus sit amet velit vitae, dapibus maximus est. Suspendisse potenti. Maecenas suscipit erat dignissim sem dignissim, non commodo elit congue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque dictum nunc ac dui congue, sit amet commodo urna aliquet. Aliquam ornare lobortis nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet turpis iaculis, finibus nibh vitae, elementum tortor. Aliquam quis ligula vitae purus placerat feugiat. Sed faucibus ligula in elit egestas, vitae lacinia risus consectetur. Curabitur et nulla sem. Cras sagittis egestas urna, a pharetra enim condimentum non.
+  press_link: http://www.travis.af.mil/News/Article/1533933/travis-hosts-steam-competition-for-local-high-schools/
+  section: Outreach
+
+- title: Phoenix Spark enables DoD, industry collaboration
+  author: Staff Sgt. Charles Rivezzo
+  org: 60th Air Mobility Wing Public Affairs
+  date: 2017-08-10 #YYYY-MM-DD
+  desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra est nisi, vitae ultrices arcu auctor vulputate.
+  press_link: http://www.travis.af.mil/News/Article/1274348/phoenix-spark-enables-dod-industry-collaboration/
+  section: Collaboration
+
+- title: Travis hosts Spark Innovation Summit
+  author: Airman 1st Class Christian Conrad
+  org: 60th Air Mobility Wing Public Affairs
+  date: 2018-03-13 #YYYY-MM-DD
+  desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra est nisi, vitae ultrices arcu auctor vulputate.
+  press_link: http://www.travis.af.mil/News/Article/1464982/travis-hosts-spark-innovation-summit/
+  section: Collaboration
