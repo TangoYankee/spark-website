@@ -15,7 +15,7 @@ sidenav: events
 {% assign nav_data = site.data.navigation.events %}
 
 <!-- events Sorted by First to occur-->
-{% assign events_data = site.data.events | sort:"date" %}
+{% assign events_data = site.data.events | sort:"start_date" %}
 
 <!-- Find length of Navigation Array, iterate through this later -->
 {% assign end_nav_data = nav_data | size | minus:1 %}
@@ -31,7 +31,12 @@ sidenav: events
 
 <!-- Display the information for all of the events assigned to that section -->
 {% for each_event in section_data %}
- <section>{{ each_event.title }}</section>
+<div>
+ <h3>{{ each_event.title }}</h3>
+ <p><i>{{ each_event.location }}<br>{{ each_event.text_date }}</i></p>
+ <p>{{ each_event.desc }}</p>
+ <a href="{{ each_event.event_url }}">More Information</a>
+ </div>
 
 <!-- Close events Article Iteration -->
 {% endfor %}

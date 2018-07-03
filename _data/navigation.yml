@@ -6,14 +6,6 @@ primary:
   - text: Contact Us
     href: /contact/
 
-# events:
-#   - text: Heading
-#     href: /events/
-#   - text: Weekly Meeting
-#     href: /events/#weekly-meeting
-#   - text: Corporate Visits
-#     href: /events/#corporate-visits
-
 ## For events, news, and contact, the corresponding markdown pages pull their section names and addresses from the text value.
 ## In the Markdown file, the section address is just the slugified text of the section. Therefore, for each section, the address
 ## must be a slugified version of the name.
@@ -26,14 +18,6 @@ events:
     href: /events/#conferences
   - text: Courses
     href: /events/#courses
-
-# news:
-#   - text: Heading
-#     href: /news/
-#   - text: Headline One
-#     href: /news/#headline-one
-#   - text: Headline Two
-#     href: /news/#headline-two
 
 news:
   - text: Heading
@@ -54,23 +38,3 @@ contact:
     href: /contact/#organization-information
   - text: Areas of Interest
     href: /contact/#interest-areas
-
-# top:
-#   - text: Why Open Source
-#     href: /why-open-source.html
-#   - text: Getting Started
-#     href: /getting-started.html
-#   - text: How to Open Source
-#     href: /how-to-open-source.html
-#   - text: FAQs
-#     href: /frequently-asked-questions.html
-
-# side:
-#   - text: Why Open Source
-#     href: /why-open-source.html
-#   - text: Getting Started
-#     href: /getting-started.html
-#   - text: How to Open Source
-#     href: /how-to-open-source.html
-#   - text: FAQs
-#     href: /frequently-asked-questions.html
