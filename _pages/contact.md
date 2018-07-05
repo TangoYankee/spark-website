@@ -61,6 +61,6 @@ sidenav: contact
     <label for="{{ contact_data.user-message.id }}">{{ contact_data.user-message.text }}</label>
     <textarea id="{{ contact_data.user-message.id }}" name="{{ contact_data.user-message.name }}"></textarea>
     <!-- Google Forms Information -->
-    <p> {{ contact_data.google-forms.message }}<a href="{{ contact_data.google-forms.home-link }}">{{ contact_data.google-forms.text }}</a></p>
+    <p> {{ contact_data.google-forms.message }}<a href="{{ contact_data.google-forms.home-link }}">{{ contact_data.google-forms.text }}</a><br><i>{{ contact_data.google-forms.disclaimer }}</i></p>
     <input type="submit" value="Submit">
 </form>

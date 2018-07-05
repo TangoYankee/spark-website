@@ -2,6 +2,9 @@ type: medium
 
 top: true
 
+edit_page:
+  text: This page is open source. Contribute here.
+  
 heading: 60th Air Mobility Wing
 
 logos:
@@ -18,7 +21,7 @@ contact:
     #   href: https://twitter.com/DefenseDigital
     #   external: true
     - text: <span class='usa-link-github usa-social_link' title='GitHub'><span>GitHub</span></span>
-      href: https://github.com/TravisSpark/spark-website
+      href: https://github.com/TravisSpark
       external: true
     - text: <span class='usa-link-trello usa-social_link' title='Trello'><span>Trello</span></span>
       href: https://trello.com/travishubteam
@@ -27,7 +30,7 @@ contact:
       href: https://60amwphoenixsparkhub.slack.com
       external: true
     - text: <span class='usa-link-linkedin usa-social_link' title='LinkedIn'><span>LinkedIn</span></span>
-      href: https://travisspark.org
+      href: https://www.linkedin.com/company/travis-afb-phoenix-spark/
       external: true
     # - text: <span class='usa-link-medium usa-social_link' title='Medium'><span>Medium</span></span>
     #   href: https://medium.com/defense-digital-service
