@@ -3,10 +3,10 @@ title: Phoenix Spark
 email: leadership@travisspark.org
 description: An experiment in leading innovation from within the Air Force
 
-github:
-  organization: TravisSpark
-  repository: spark-website
-  default_branch: gh-pages
+# github:
+#   organization: TravisSpark
+#   repository: spark-website
+#   default_branch: gh-pages
 
 styles:
   - /assets/css/main.css
