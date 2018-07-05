@@ -9,7 +9,7 @@
  
  - title: Phoenix Spark Working Lunch
    location: Phoenix Spark Lab Building 241 Travis AFB, CA
-   desc: Provide a space for current and potential participants to pitch ideas and update ongoing projects.
+   desc: An open space for current and potential participants to update ongoing projects and pitch ideas.
    event_url: https://www.travisspark.org
    section: Weekly Meeting ## Sections: Courses, Conferences, Weekly Meetings
    text_date: 1200, Every Friday ## <string> For Display
@@ -31,9 +31,9 @@
    text_date: 'Oct 22-24, 2018'
    start_date: 2018-10-22
 
- - title: Air Force Additive Manufacturing Technical Interchange Meeting
+ - title: Air Force Additive Manufacturing Technical Interchange Meeting (AFAMTIM)
    location: Dayton, OH
-   desc: the premier USAF AM showcase offering technology demonstrations, collaborative learning opportunities, USAF AM polymer operator qualification, and insight into future technologies around AM to ultimately accelerate the technical transition and adoption of AM within the USAF.
+   desc: AFAMTIM is the premier USAF Additive Manufacturing (AM) showcase offering technology demonstrations, collaborative learning opportunities, USAF AM polymer operator qualification, and insight into future technologies around AM to ultimately accelerate the technical transition and adoption of AM within the USAF.
    event_url: http://www.afcpo.com/additivemanufacturing.html
    section: Conferences
    text_date: 'Sep 26-28, 2018' #For Display
