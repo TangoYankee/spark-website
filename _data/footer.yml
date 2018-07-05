@@ -2,8 +2,8 @@ type: medium
 
 top: true
 
-edit_page:
-  text: This page is open source. Contribute here.
+# edit_page:
+#   text: This page is open source. Contribute here.
   
 heading: 60th Air Mobility Wing
 
@@ -35,7 +35,9 @@ contact:
     # - text: <span class='usa-link-medium usa-social_link' title='Medium'><span>Medium</span></span>
     #   href: https://medium.com/defense-digital-service
     #   external: true
-  heading: Contact us
+  heading: Our Information
   contact_links:
     - text: leadership@travisspark.org
       href: mailto:{{site.email}}
+    - text: Contribute to this Open Source website
+      href: https://github.com/TravisSpark/spark-website  
