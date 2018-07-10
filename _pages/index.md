@@ -5,7 +5,7 @@ permalink: '/'
 layout: home
 
 hero:
-  image: /assets/images/spark-logo-crop.png
+  image: /assets/images/spark-logo-crop-skew.png
   callout:
     alt: "Travis AFB:"
     text: Phoenix Spark Hub for Innovation
