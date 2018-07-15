@@ -35,9 +35,10 @@ contact:
     # - text: <span class='usa-link-medium usa-social_link' title='Medium'><span>Medium</span></span>
     #   href: https://medium.com/defense-digital-service
     #   external: true
-  heading: Our Information
+  # heading: Our Information
+  heading: '#poweredbyspark'
   contact_links:
-    - text: leadership@travisspark.org
+    - text: '{{site.email}}'
       href: mailto:{{site.email}}
     - text: Contribute to this Open Source website
-      href: https://github.com/TravisSpark/spark-website  
+      href: https://github.com/TravisSpark/spark-website
