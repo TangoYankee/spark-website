@@ -1,10 +1,11 @@
 # Contributing to Our Projects, Version 1.5
 
-**NOTE: This CONTRIBUTING.md is for software contributions. You do not need to follow the Developer's Certificate of Origin (DCO) process for commenting on the Code.mil repository documentation, such as CONTRIBUTING.md, INTENT.md, etc. or for submitting issues.**
+**NOTE: This CONTRIBUTING.md is for software contributions. You do not need to follow the Developer's Certificate of Origin (DCO) process for commenting on repository documentation, such as CONTRIBUTING.md, INTENT.md, etc. or for submitting issues.** 
+**These guidelines were originally developed by code.mil and have been adapted for travisspark.org**
 
 Thanks for thinking about using or contributing to this software ("Project") and its documentation!
-
 * [Policy & Legal Info](#policy)
+* [New Developer Guide](#new-developer-guide)
 * [Getting Started](#getting-started)
 * [Submitting an Issue](#submitting-an-issue)
 * [Submitting Code](#submitting-code)
@@ -71,9 +72,35 @@ By making a contribution to this project, I certify that:
     this project or the open source license(s) involved.
 ```
 
+## New Developer Guide
+
+In the spirit educating Airmen, this repository contains overviews of key concepts in contributing to open source projects. Please visit the [wiki](https://github.com/TravisSpark/spark-website/wiki) to learn about foundational concepts such as:
+<ol>
+  <li>Programming Languages</li>
+  <li>Code Development</li>
+  <ol>
+    <li>Command Line</li>
+    <li>Integrated Development Environments (IDEs)</li>
+    <li>Troubleshooting</li>
+    <li>Expert Googling</li>
+  </ol>
+  <li>Collaboration</li>
+  <ol>
+    <li>Version Control</li>
+    <li>Task Delegation</li>
+    <li>GitHub</li>
+    <li>Open Source Licensing</li>
+  </ol>
+  <li>spark-website Tools</li>
+  <ol>
+    <li>Languages</li>
+    <li>Testing</li>
+  </ol>
+</ol>
+
 ## Getting Started
 
-Code.mil is a static web site generated using a piece of software called [Jekyll](https://jekyllrb.com/) which runs in the programming language [Ruby](https://www.ruby-lang.org). Development dependencies are managed using the [Bundler gem](http://bundler.io).
+travisspark.org is a static web site generated using a piece of software called [Jekyll](https://jekyllrb.com/) which runs in the programming language [Ruby](https://www.ruby-lang.org). Development dependencies are managed using the [Bundler gem](http://bundler.io).
 
 This project uses Ruby version 2.3 which can be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv).
 
@@ -113,7 +140,7 @@ Your bug fix or feature addition won't be rejected if it runs afoul of any (or a
 
 ## Submitting an Issue
 
-You should feel free to [submit an issue](https://github.com/Code-dot-mil/code.mil/issues) on our GitHub repository for anything you feel needs attention on the site. That includes content, functionality, design, or anything else!
+You should feel free to [submit an issue](https://github.com/TravisSpark/spark-website/issues) on our GitHub repository for anything you feel needs attention on the site. That includes content, functionality, design, or anything else!
 
 ### Submitting a Bug
 
@@ -127,11 +154,11 @@ When submitting a bug on the site please be sure to add extensive information ab
 
 ## Submitting Code
 
-When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [Pull Request (PR)](https://github.com/Code-dot-mil/code.mil/pulls) on GitHub. Your request will go through some automated checks using [Travis CI](https://travis-ci.org/Code-dot-mil/code.mil/), a continuous integration and deployment tool.
+When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [Pull Request (PR)](https://github.com/TravisSpark/spark-website/pulls) on GitHub. Your request will go through some automated checks using [Travis CI](https://travis-ci.org/TravisSpark/spark-website/), a continuous integration and deployment tool.
 
-After review by the Code.mil team your PR will either be commented on with a request for more information or changes, or it will be merged into the codebase which will automatically deploy the changes to [beta.code.mil](http://beta.code.mil).
+After review by the travisspark.org team, your PR will either be commented on with a request for more information or changes, or it will be merged into the codebase which will automatically deploy the changes to the live site.
 
-Assuming everything checks out, the Code.mil team will deploy the changes to [code.mil](http://code.mil) by creating a [new release](https://github.com/Code-dot-mil/code.mil/releases/new) on master with a tag like vX.X.X (where X is between 0 and 9), human readable title, and any other relevent context in the description.
+To join the spark-website team, contact the TravisSpark GitHub organization administrator at 60AMW.PS.PhoenixSpark@us.af.mil
 
 ### Check Your Changes
 
