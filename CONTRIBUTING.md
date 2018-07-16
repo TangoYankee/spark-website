@@ -100,7 +100,7 @@ In the spirit educating Airmen, this repository contains overviews of key concep
 
 ## Getting Started
 
-Code.mil is a static web site generated using a piece of software called [Jekyll](https://jekyllrb.com/) which runs in the programming language [Ruby](https://www.ruby-lang.org). Development dependencies are managed using the [Bundler gem](http://bundler.io).
+travisspark.org is a static web site generated using a piece of software called [Jekyll](https://jekyllrb.com/) which runs in the programming language [Ruby](https://www.ruby-lang.org). Development dependencies are managed using the [Bundler gem](http://bundler.io).
 
 This project uses Ruby version 2.5.0 which can be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv).
 
@@ -140,7 +140,7 @@ Your bug fix or feature addition won't be rejected if it runs afoul of any (or a
 
 ## Submitting an Issue
 
-You should feel free to [submit an issue](https://github.com/Code-dot-mil/code.mil/issues) on our GitHub repository for anything you feel needs attention on the site. That includes content, functionality, design, or anything else!
+You should feel free to [submit an issue](https://github.com/TravisSpark/spark-website/issues) on our GitHub repository for anything you feel needs attention on the site. That includes content, functionality, design, or anything else!
 
 ### Submitting a Bug
 
@@ -154,11 +154,11 @@ When submitting a bug on the site please be sure to add extensive information ab
 
 ## Submitting Code
 
-When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [Pull Request (PR)](https://github.com/Code-dot-mil/code.mil/pulls) on GitHub. Your request will go through some automated checks using [Travis CI](https://travis-ci.org/Code-dot-mil/code.mil/), a continuous integration and deployment tool.
+When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [Pull Request (PR)](https://github.com/TravisSpark/spark-website/pulls) on GitHub. Your request will go through some automated checks using [Travis CI](https://travis-ci.org/TravisSpark/spark-website/), a continuous integration and deployment tool.
 
-After review by the Code.mil team your PR will either be commented on with a request for more information or changes, or it will be merged into the codebase which will automatically deploy the changes to [beta.code.mil](http://beta.code.mil).
+After review by the travisspark.org team, your PR will either be commented on with a request for more information or changes, or it will be merged into the codebase which will automatically deploy the changes to the live site.
 
-Assuming everything checks out, the Code.mil team will deploy the changes to [code.mil](http://code.mil) by creating a [new release](https://github.com/Code-dot-mil/code.mil/releases/new) on master with a tag like vX.X.X (where X is between 0 and 9), human readable title, and any other relevent context in the description.
+To join the spark-website team, contact the TravisSpark GitHub organization administrator at 60AMW.PS.PhoenixSpark@us.af.mil
 
 ### Check Your Changes
 
