@@ -102,13 +102,13 @@ In the spirit educating Airmen, this repository contains overviews of key concep
 
 travisspark.org is a static web site generated using a piece of software called [Jekyll](https://jekyllrb.com/) which runs in the programming language [Ruby](https://www.ruby-lang.org). Development dependencies are managed using the [Bundler gem](http://bundler.io).
 
-This project uses Ruby version 2.5.0 which can be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv).
+This project uses Ruby version 2.3 which can be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv).
 
 ```
-rbenv install 2.5.0
+rbenv install 2.3
 ```
 
-Once you've installed Ruby 2.5.0, install the Bundler gem and Jekyll:
+Once you've installed Ruby 2.3, install the Bundler gem and Jekyll:
 
 ```
 gem install bundler
