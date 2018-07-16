@@ -1,27 +1,42 @@
-# Welcome to Code.mil
+# Welcome to Phoenix Spark at Travis Air Force Base
 
-[![Build Status](https://travis-ci.org/Code-dot-mil/code.mil.svg)](https://travis-ci.org/Code-dot-mil/code.mil)
+## About Our Organization
 
-An experiment in open source at the Department of Defense.
+As the inaugural PHOENIX SPARK Hub, Travis AFB provides leadership and is the role model for future SPARK programs across the Total Force. Through continuous organizational learning and inspiring a culture of innovation and empowerment, PHOENIX SPARK will deliver tomorrow’s innovative capabilities to the warfighter today. Learn more at [travisspark.org](travisspark.github.io/sparkwebsite)
 
-The U.S. Department of Defense (DoD) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically doesn't have copyright protections under U.S. and some international laws. This can make it hard to attach an open source license to our code, and our team here at Defense Digital Service wants to find a solution. [Read about our journey so far on Medium](https://medium.com/@DefenseDigitalService/code-mil-an-open-source-initiative-at-the-pentagon-5ae4986b79bc#.i78how76u).
+## About this Repository
 
-**If you are a DoD or Military Department employee with a project you want hosted on Code.mil, get the conversation going by [submitting your information](https://docs.google.com/forms/d/e/1FAIpQLSebDzfqkH8ANSuqQFqValypmceVxNfEzOxMURfQQBAt4IgFQw/viewform?usp=sf_link).**
+Among other areas, Phoenix Spark is driving the organization and development of USAF software tools. This involves implementing custom projects, teaching new developers, and collaborating on existing solutions. We are developing our website in this spirit. 
 
-This repository is the open source home for the public-facing web site: [Code.mil](http://code.mil)
+1. The source code is available here: [TravisSpark/spark-website](https://github.com/TravisSpark/spark-website)
+2. The language is Jekyll for Ruby
+3. The design utilizes [U.S Web Design System UI-Components](https://designsystem.digital.gov/) developed by the [GSA's Technology-Transformation-Services] (https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services)
+4. It is a fork of [Code.mil](https://github.com/Code-dot-mil/code.mil)
+5. The [wiki](https://github.com/TravisSpark/spark-website/wiki) provides tutorials on developing and sharing software
 
-## Build with us.
+## Contributing
 
-The DoD is charged with protecting our citizens and national security. We have an incredibly diverse portfolio spanning from communications, logistics, education, healthcare, and even the next generation of GPS (yes, *the* GPS!) that supports billions of people across the globe.
+There are several opportunitities to contribute to projects at Phoenix Spark:
 
-We need your help in contributing to our projects to build better products and services for the American people. You can contribute by [finding a project](https://github.com/topics/code-mil), reviewing its contributor guidelines, and submitting an issue or Pull Request!
+1. Contribute to this website by reviewing its [Contributing.md](https://github.com/TravisSpark/spark-website/blob/gh-pages/CONTRIBUTING.md)
+2. Explore the [TravisSpark]() GitHub Organization
+   a . Collaborate on an existing project
+   b . Create or share a new project
+3. Contact us at [travisspark.org](https://travisspark.github.io/spark-website/contact/) to find interesting projects in topics that include:
+   a . [3-D Printing](https://3dprint.com/218699/air-force-3d-printing-cups/)
+   b . Automation, Robotics, and Drones
+   c . Additive Manufacturing 
+   d . Virtual Reality
+   e . Machine Learning
+   f . Operational Management Theory
 
-> **Curious about DDS?**
->
-> If you're curious about [Defense Digital Service](https://dds.mil) (DDS), the team behind Code.mil, check us out online at [dds.mil](https://dds.mil). We are an agency under the [United States Digital Service](https://usds.gov) that works exclusively on projects for the DoD. We're always looking for good people to [join us](https://www.dds.mil/#join)!
+## Open Sourcing in the DoD
 
-## Make us better.
+On June 2, 2016, the U.S Chief Information and Acquisition Officers released a memorandum for the heads of departments and agencies of the federal government: [M-16-21](https://code.gov/#/policy-guide/policy/introduction). This memorandum addressed a Federal Source Code Policy. The goal is to improve the the cost efficiency, mission effectiveness, and consumer experience of government programs. To help implement this policy, the websites [code.gov](https://code.gov) and [code.mil](https://www.code.mil/#/) to address the needs of general federal agencies and the DoD, respectively. 
 
-We've drafted documentation on [implementing OSS within the DoD](http://www.code.mil/getting-started.html) and a guideline for [accepting contributions to DoD OSS projects](http://www.code.mil/how-to-open-source.html#step-4-contributions) so the DoD can participate in the open source and free software communities, even where we may not have copyright. This lets us harness the depth and breadth of talent in the open source and free software communities to improve our software and make our code available for public use.
 
-We want your help to continue making our open source strategy better. Our philosophy is continuous iteration. We encourage everybody to [open an issue](https://github.com/Code-dot-mil/code.mil/issues/new) (or a pull request!) with your suggestions on how to continue improving.
+From the [Code.mil Readme](https://github.com/Code-dot-mil/code.mil/blob/master/README.md):
+
+> The U.S. Department of Defense (DoD) faces unique challenges in open sourcing its code. Unlike most software projects, Code written by U.S. Federal government employees typically doesn't have copyright protections under U.S. and some international laws. This can make it hard to attach an open source license to our code, and our team here at Defense Digital Service wants to find a solution. 
+
+Join us at Phoenix Spark in developing the Warfighting tools of tomorrow. 
