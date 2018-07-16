@@ -1,10 +1,11 @@
 # Contributing to Our Projects, Version 1.5
 
-**NOTE: This CONTRIBUTING.md is for software contributions. You do not need to follow the Developer's Certificate of Origin (DCO) process for commenting on the Code.mil repository documentation, such as CONTRIBUTING.md, INTENT.md, etc. or for submitting issues.**
+**NOTE: This CONTRIBUTING.md is for software contributions. You do not need to follow the Developer's Certificate of Origin (DCO) process for commenting on repository documentation, such as CONTRIBUTING.md, INTENT.md, etc. or for submitting issues.** 
+**These guidelines were originally developed by code.mil and have been adapted for travisspark.org**
 
 Thanks for thinking about using or contributing to this software ("Project") and its documentation!
-
 * [Policy & Legal Info](#policy)
+* [New Developer Guide](#new-developer-guide)
 * [Getting Started](#getting-started)
 * [Submitting an Issue](#submitting-an-issue)
 * [Submitting Code](#submitting-code)
@@ -70,6 +71,32 @@ By making a contribution to this project, I certify that:
     maintained indefinitely and may be redistributed consistent with
     this project or the open source license(s) involved.
 ```
+
+## New Developer Guide
+
+In the spirit educating Airmen, this repository contains overviews of key concepts in contributing to open source projects. Please visit the [wiki](https://github.com/TravisSpark/spark-website/wiki) to learn about foundational concepts such as:
+<ol>
+  <li>Programming Languages</li>
+  <li>Code Development</li>
+  <ol>
+    <li>Command Line</li>
+    <li>Integrated Development Environments (IDEs)</li>
+    <li>Troubleshooting</li>
+    <li>Expert Googling</li>
+  </ol>
+  <li>Collaboration</li>
+  <ol>
+    <li>Version Control</li>
+    <li>Task Delegation</li>
+    <li>GitHub</li>
+    <li>Open Source Licensing</li>
+  </ol>
+  <li>spark-website Tools</li>
+  <ol>
+    <li>Languages</li>
+    <li>Testing</li>
+  </ol>
+</ol>
 
 ## Getting Started
 
