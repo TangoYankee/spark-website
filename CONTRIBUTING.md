@@ -171,7 +171,7 @@ While there are automated checks on every PR, you can run the build process loca
 
 ## News and Events
 
-The news and events listed on the website are designed to be quickly edited to reflect how often they change. Consequently, there are two data files that each contain all of the relevant news and events. The data are in a YAML format and follow a template unique to each category. If the intention is to simply change the content of news or events, only these files need to be changed. The changes will automatically be sorted and formatted.
+The news and events listed on the website are designed to be quickly edited to reflect how often they change. Consequently, there are two data files that each contain all of the relevant news and events. These data are in a YAML format and follow a template unique to each category. If the intention is to simply change the content of news or events, only these files need to be changed. The changes will automatically be sorted and formatted.
 
 #### News
 [File Location](https://github.com/TravisSpark/spark-website/blob/gh-pages/_data/news.yml)
