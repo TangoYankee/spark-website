@@ -9,6 +9,7 @@ Thanks for thinking about using or contributing to this software ("Project") and
 * [Getting Started](#getting-started)
 * [Submitting an Issue](#submitting-an-issue)
 * [Submitting Code](#submitting-code)
+* [News and Events](#news-and-events)
 
 ## Policy
 
@@ -166,4 +167,37 @@ While there are automated checks on every PR, you can run the build process loca
 
 ```
 ./build
+```
+
+## News and Events
+
+The news and events listed on the website are designed to be quickly edited to reflect how often they change. Consequently, there are two data files that each contain all of the relevant news and events. The data are in a YAML format and follow a template unique to each category. If the intention is to simply change the content of news or events, only these files need to be changed. The changes will automatically be sorted and formatted.
+
+#### News
+[File Location](https://github.com/TravisSpark/spark-website/blob/gh-pages/_data/news.yml)
+
+**title**, **author**, **org** *(press organization)*, **desc** *(description)*, and **press_link** are are self-explanatory. **section** is used to sort under which header the event will appear on the site. It must be an exact match for **Collaboration**, **Outreach**, or **Technology**. Otherwise, it will not appear. In fact, this is a good way to hide old articles that shouldn't be displayed but aren't ready to be deleted.  **date** is formatted as YYYY-MM-DD. It is used to sort the articles, from latest to earliest. 
+```
+- title: 
+  author: 
+  org: 
+  date: #YYYY-MM-DD
+  desc: 
+  press_link: 
+  section: 
+```
+
+#### Events
+[File Location](https://github.com/TravisSpark/spark-website/blob/gh-pages/_data/events.yml)
+
+**title**, **location**, **desc** *(description)*, and **event_url** are are self-explanatory. **section** is used to sort under which header the event will appear on the site. It must be an exact match for **Courses**, **Conferences**, or **Weekly Meeting**. Otherwise, it will not appear. In fact, this is a good way to hide old events that shouldn't be displayed but aren't ready to be deleted. Because events have different dates or can be recurring, **Text_date** is used only for display purposes. This gives it flexibility in its format. **start_date** is read as a date. It is formatted as YYYY-MM-DD. It is used to sort the events, from earliest to latest. Some recurring events are set far into the past, to make sure they always appear on top. 
+
+```
+ - title: 
+   location:
+   desc: 
+   event_url:
+   section: ## Sections: Courses, Conferences, Weekly Meeting
+   text_date: ## <string> For Display
+   start_date:  ## <YYYY-MM-DD For Sorting
 ```
