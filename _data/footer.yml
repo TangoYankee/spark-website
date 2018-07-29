@@ -20,17 +20,20 @@ contact:
     # - text: <span class='usa-link-twitter usa-social_link' title='Twitter'><span>Twitter</span></span>
     #   href: https://twitter.com/DefenseDigital
     #   external: true
-    - text: <span class='usa-link-github usa-social_link' title='GitHub'><span>GitHub</span></span>
-      href: https://github.com/TravisSpark
+    - text: <span class='usa-link-github usa-social_link' title='https://github.com/TravisSpark/spark-website'><span>GitHub</span></span>
+      href: https://github.com/TravisSpark/spark-website
       external: true
-    - text: <span class='usa-link-trello usa-social_link' title='Trello'><span>Trello</span></span>
+    - text: <span class='usa-link-trello usa-social_link' title='https://trello.com/travishubteam'><span>Trello</span></span>
       href: https://trello.com/travishubteam
       external: true
-    - text: <span class='usa-link-slack usa-social_link' title='Slack'><span>Slack</span></span>
+    - text: <span class='usa-link-slack usa-social_link' title='https://60amwphoenixsparkhub.slack.com'><span>Slack</span></span>
       href: https://60amwphoenixsparkhub.slack.com
       external: true
-    - text: <span class='usa-link-linkedin usa-social_link' title='LinkedIn'><span>LinkedIn</span></span>
+    - text: <span class='usa-link-linkedin usa-social_link' title='https://www.linkedin.com/company/travis-afb-phoenix-spark/'><span>LinkedIn</span></span>
       href: https://www.linkedin.com/company/travis-afb-phoenix-spark/
+      external: true
+    - text: <span class='usa-link-email usa-social_link' title='{{site.email}}'><span>Email</span></span>
+      href: mailto:{{site.email}}
       external: true
     # - text: <span class='usa-link-medium usa-social_link' title='Medium'><span>Medium</span></span>
     #   href: https://medium.com/defense-digital-service
@@ -38,7 +41,12 @@ contact:
   # heading: Our Information
   heading: '#poweredbyspark'
   contact_links:
-    - text: '{{site.email}}'
-      href: mailto:{{site.email}}
-    - text: Contribute to this Open Source website
-      href: https://github.com/TravisSpark/spark-website
+    # - text: '{{site.email}}'
+    #   href: mailto:{{site.email}}
+    - text: Link Disclaimer
+      href: /policies/#external-link
+    - text: Accessibility
+      href: /policies/#section-508
+    # - text: Help build this website
+    #   href: https://github.com/TravisSpark/spark-website
+

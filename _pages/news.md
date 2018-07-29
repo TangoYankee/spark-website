@@ -1,7 +1,6 @@
 ---
 title: In the News
 permalink: /news/
-
 layout: page
 sidenav: news
 
@@ -21,7 +20,8 @@ sidenav: news
 {% assign end_nav_data = nav_data | size | minus:1 %}
 
 <!-- Iterate through all of the navigation sections. Start at one because zero is just the top header -->
-{% for section_count in (1..end_nav_data ) %}
+{% for section_count in (0..end_nav_data ) %}
+
 <a name="{{ nav_data[section_count].text | slugify }}"></a>
 <h2>{{ nav_data[section_count].text }}</h2>
 <hr>
