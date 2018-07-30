@@ -5,13 +5,15 @@ primary:
     href: /news/
   - text: Contact Us
     href: /contact/
+  - text: Policies
+    href: /policies/
 
 ## For events, news, and contact, the corresponding markdown pages pull their section names and addresses from the text value.
 ## In the Markdown file, the section address is just the slugified text of the section. Therefore, for each section, the address
 ## must be a slugified version of the name.
 events:
-  - text: Heading
-    href: /events/
+  # - text: Heading
+  #   href: /events/#
   - text: Weekly Meeting
     href: /events/#weekly-meeting
   - text: Conferences
@@ -20,8 +22,8 @@ events:
     href: /events/#courses
 
 news:
-  - text: Heading
-    href: /news/
+  # - text: Heading
+  #   href: /news/#
   - text: Collaboration
     href: /news/#collaboration
   - text: Technology
@@ -30,11 +32,23 @@ news:
     href: /news/#outreach
 
 contact:
-  - text: Heading
-    href: /contact/
+  # - text: Heading
+  #   href: /contact/#
   - text: Personal Information
     href: /contact/#personal-information
   - text: Organization Information
     href: /contact/#organization-information
   - text: Areas of Interest
     href: /contact/#areas-of-interest
+
+policies:
+  # - text: Heading
+  #   href: /policies/#
+  - text: External Link
+    href: /policies/#external-link
+  - text: Privacy Act
+    href: /policies/#privacy-act
+  - text: Section 508
+    href: /policies/#section-508
+  - text: Web Policies
+    href: /policies/#web-policies

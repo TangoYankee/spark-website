@@ -16,8 +16,8 @@ sidenav: contact
 
 <form action="{{ contact_data.google-forms.action-link}}">
     <!-- Section: Personal Information -->
-    <a name="{{ nav_data[1].text | slugify }}"></a>
-    <h2>{{ nav_data[1].text }}</h2>
+    <a name="{{ nav_data[0].text | slugify }}"></a>
+    <h2>{{ nav_data[0].text }}</h2>
     <!-- Input: User Name -->
     <label for="{{ contact_data.personal-name.id }}">{{ site.data.contact.personal-name.text }}</label>
     <input id="{{ contact_data.personal-name.id }}" name="{{contact_data.personal-name.name}}" required>
@@ -25,8 +25,8 @@ sidenav: contact
     <label for="{{ contact_data.personal-email.id }}">{{ contact_data.personal-email.text }}</label>
     <input id="{{ contact_data.personal-email.id }}" name="{{ contact_data.personal-email.name }}" required>
     <!-- Section: Organization Information -->
-    <a name="{{ nav_data[2].text | slugify}}"></a>
-    <h2>{{ nav_data[2].text }}</h2>
+    <a name="{{ nav_data[1].text | slugify}}"></a>
+    <h2>{{ nav_data[1].text }}</h2>
     <!-- Input: Organization Name -->
     <label for="{{ contact_data.organization-name.id }}">{{ contact_data.organization-name.text }}</label>
     <input id="{{ contact_data.organization-name.id }}" name="{{ contact_data.organization-name.name }}">
@@ -41,8 +41,8 @@ sidenav: contact
         <!--  -->
     </select>
     <!-- Section: Areas of Interest -->
-    <a name="{{ nav_data[3].text | slugify }}"></a>
-    <h2>{{ nav_data[3].text }}</h2>
+    <a name="{{ nav_data[2].text | slugify }}"></a>
+    <h2>{{ nav_data[2].text }}</h2>
     <!-- Input: Areas of Interest -->
     <fieldset class="usa-fieldset-inputs usa-sans">
         <label for="{{ contact_data.interest-areas.id }}">{{ contact_data.interest-areas.text }}</label>

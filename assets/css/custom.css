@@ -27,6 +27,10 @@
   background-image: url('../images/linkedin-logo.png');
 }
 
+.usa-link-email {
+  background-image: url('../images/email-logo.png');
+}
+
 /* .usa-footer-contact-links .usa-link-generic {
   text-decoration: none;
 }
