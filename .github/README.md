@@ -1,27 +1,25 @@
-# Welcome to Code.mil
+# Welcome to Phoenix Spark at Travis Air Force Base
 
-[![Build Status](https://travis-ci.org/Code-dot-mil/code.mil.svg)](https://travis-ci.org/Code-dot-mil/code.mil)
+As the inaugural Phoenix Spark Hub, Travis AFB provides leadership and is the role model for future SPARK programs across the Total Force. Through continuous organizational learning and inspiring a culture of innovation and empowerment, PHOENIX SPARK will deliver tomorrow’s innovative capabilities to the warfighter today. Learn more at [travisspark.org](travisspark.github.io/sparkwebsite)
 
-An experiment in open source at the Department of Defense.
+## This Repository
 
-The U.S. Department of Defense (DoD) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically doesn't have copyright protections under U.S. and some international laws. This can make it hard to attach an open source license to our code, and our team here at Defense Digital Service wants to find a solution. [Read about our journey so far on Medium](https://medium.com/@DefenseDigitalService/code-mil-an-open-source-initiative-at-the-pentagon-5ae4986b79bc#.i78how76u).
+Among other areas, Phoenix Spark is driving the organization and development of USAF software tools. This involves implementing custom projects, teaching new developers, and collaborating on existing solutions. We are developing our website in this spirit. 
 
-**If you are a DoD or Military Department employee with a project you want hosted on Code.mil, get the conversation going by [submitting your information](https://docs.google.com/forms/d/e/1FAIpQLSebDzfqkH8ANSuqQFqValypmceVxNfEzOxMURfQQBAt4IgFQw/viewform?usp=sf_link).**
+1. The source code is available here: [TravisSpark/spark-website](https://github.com/TravisSpark/spark-website)
+2. The language is [Jekyll](https://jekyllrb.com/) for [Ruby](https://www.ruby-lang.org/en/)
+3. The design utilizes [U.S Web Design System UI-Components](https://designsystem.digital.gov/) developed by the [GSA's Technology-Transformation-Services](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services)
+4. It is a fork of [Code.mil](https://github.com/Code-dot-mil/code.mil)
+5. The [wiki](https://github.com/TravisSpark/spark-website/wiki) provides tutorials on developing and sharing software
 
-This repository is the open source home for the public-facing web site: [Code.mil](http://code.mil)
+## Contributing to Spark
 
-## Build with us.
+There are several opportunitities to contribute to projects at Phoenix Spark:
 
-The DoD is charged with protecting our citizens and national security. We have an incredibly diverse portfolio spanning from communications, logistics, education, healthcare, and even the next generation of GPS (yes, *the* GPS!) that supports billions of people across the globe.
+1. Contribute to this website by reviewing its [Contributing.md](https://github.com/TravisSpark/spark-website/blob/gh-pages/CONTRIBUTING.md)
+2. Explore the [TravisSpark](https://github.com/TravisSpark) GitHub Organization to collaborate on an existing project or create a new project
+3. Contact us at [travisspark.org](https://travisspark.org/contact/) to find interesting projects in topics that include, [3-D Printing](https://3dprint.com/218699/air-force-3d-printing-cups/), Drones, Additive Manufacturing, Virtual Reality, Machine Learning, and Operational Management Theory
 
-We need your help in contributing to our projects to build better products and services for the American people. You can contribute by [finding a project](https://github.com/topics/code-mil), reviewing its contributor guidelines, and submitting an issue or Pull Request!
+## Open Sourcing in the DoD
 
-> **Curious about DDS?**
->
-> If you're curious about [Defense Digital Service](https://dds.mil) (DDS), the team behind Code.mil, check us out online at [dds.mil](https://dds.mil). We are an agency under the [United States Digital Service](https://usds.gov) that works exclusively on projects for the DoD. We're always looking for good people to [join us](https://www.dds.mil/#join)!
-
-## Make us better.
-
-We've drafted documentation on [implementing OSS within the DoD](http://www.code.mil/getting-started.html) and a guideline for [accepting contributions to DoD OSS projects](http://www.code.mil/how-to-open-source.html#step-4-contributions) so the DoD can participate in the open source and free software communities, even where we may not have copyright. This lets us harness the depth and breadth of talent in the open source and free software communities to improve our software and make our code available for public use.
-
-We want your help to continue making our open source strategy better. Our philosophy is continuous iteration. We encourage everybody to [open an issue](https://github.com/Code-dot-mil/code.mil/issues/new) (or a pull request!) with your suggestions on how to continue improving.
+On June 2, 2016, the U.S Chief Information and Acquisition Officers released Memorandum [M-16-21](https://code.gov/#/policy-guide/policy/introduction), creating a Federal Source Code Policy. The goal is to improve the the cost efficiency, mission effectiveness, and consumer experience of government programs by maximizing the amount of federal software that is reused by other agencies or made available to the general public to improve. To help implement this policy, the websites [code.gov](https://code.gov) and [code.mil](https://www.code.mil/#/) were created to address the needs of general federal agencies and the DoD, respectively. These websites provide great resources on navigating the complexities of sharing code developed by and for federal agencies. 

@@ -1,31 +1,47 @@
-
+/* 
 .hidden{
   display: none;
 }
 
 .usa-hero-callout .usa-button {
   margin-top: 4rem;
-}
+} */
 
-.usa-link-medium {
+/* .usa-link-medium {
   background-image: url('/assets/images/medium.png');
-}
+} */
 
 .usa-link-github {
-  background-image: url('/assets/images/github.png');
+  background-image: url('../images/github.png');
 }
 
-.usa-footer-contact-links .usa-link-generic {
+.usa-link-trello {
+  background-image: url('../images/trello-logo.png');
+}
+
+.usa-link-slack {
+  background-image: url('../images/slack-logo.png');
+}
+
+.usa-link-linkedin {
+  background-image: url('../images/linkedin-logo.png');
+}
+
+.usa-link-email {
+  background-image: url('../images/email-logo.png');
+}
+
+/* .usa-footer-contact-links .usa-link-generic {
   text-decoration: none;
 }
 
 .usa-content .usa-layout-docs-main_content p {
   max-width: none;
-}
+} */
 
 
 /* For the decision tree UI */
-.tree-node {
+/* .tree-node {
   display: none;
 }
 .tree-node.active {
@@ -42,4 +58,4 @@ aside.tree-reset {
   border-bottom: 1px solid #999;
   width: 60%;
   margin: 1em auto;
-}
+} */

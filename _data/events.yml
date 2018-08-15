@@ -1,0 +1,56 @@
+ ## Template
+  # - title: 
+  #  location:
+  #  desc: 
+  #  event_url:
+  #  section: ## Sections: Courses, Conferences, Weekly Meeting
+  #  text_date: ## <string> For Display
+  #  start_date:  ## <YYYY-MM-DD For Sorting
+ 
+ - title: Phoenix Spark Working Lunch
+   location: Phoenix Spark Lab Building 241 Travis AFB, CA
+   desc: An open space for current and potential participants to update ongoing projects and pitch ideas.
+   event_url: https://www.travisspark.org
+   section: Weekly Meeting ## Sections: Courses, Conferences, Weekly Meetings
+   text_date: 1200, Every Friday ## <string> For Display
+   start_date: 1900-01-01 ## <YYYY-MM-DD For Sorting
+
+ - title: The Air Force Information Technology & Cyberpower (AFITC) Conference 
+   location: Montgomery, Alabama
+   desc: The AFITC Conference is the place where Air Force personnel and decision makers, as well as private industry IT and cyber security leaders, convene to not only share and review strategies but also explore the latest in cyber tools, software, and hardware.
+   event_url: https://www.afitc-event.com/
+   section: Conferences
+   text_date: 'Aug 27th-29th, 2018'
+   start_date: 2018-08-27
+
+ - title: NVIDIA’s GPU Technology Conference (GTC)
+   location: Washington, D.C
+   desc: GTC is the premier AI and deep learning conference series, providing you with training, insights, and direct access to experts from NVIDIA and other leading organizations.
+   event_url: https://www.nvidia.com/en-us/gtc-dc/
+   section: Conferences
+   text_date: 'Oct 22-24, 2018'
+   start_date: 2018-10-22
+
+ - title: Air Force Additive Manufacturing Technical Interchange Meeting (AFAMTIM)
+   location: Dayton, OH
+   desc: AFAMTIM is the premier USAF Additive Manufacturing (AM) showcase offering technology demonstrations, collaborative learning opportunities, USAF AM polymer operator qualification, and insight into future technologies around AM to ultimately accelerate the technical transition and adoption of AM within the USAF.
+   event_url: http://www.afcpo.com/additivemanufacturing.html
+   section: Conferences
+   text_date: 'Sep 26-28, 2018' #For Display
+   start_date: 2018-09-26 #For Sorting
+
+ - title: OPM Center for Leadership Development
+   location: Throughout the U.S.
+   desc: The OPM’s Center for Leadership Development is dedicated to developing great leaders for the Federal Government. Our faculty and facilitators—drawn from America’s elite corps of leadership development professionals—provide personalized services to help you focus on the developmental opportunities that will propel you to an outstanding level of performance excellence.
+   event_url: https://www.opm.gov/services-for-agencies/center-for-leadership-development/about-us/#url=Overview
+   section: Courses
+   text_date: Ongoing #For Display
+   start_date: 2100-01-01 #For Sorting
+
+ - title: Sacramento Hacker Lab 
+   location: 1715 I St, Sacramento
+   desc: An all-in-one makerspace, coworking facility, and startup incubator. We bring people, training, and advanced prototyping equipment together under one roof, giving innovators the opportunity to bring their vision to life.
+   event_url: https://sacramento.hackerlab.org/en/events
+   section: Courses ## Sections: Courses, Conferences, Weekly Meetings
+   text_date: Ongoing ## <string> For Display
+   start_date: 2020-01-01 ## <YYYY-MM-DD For Sorting

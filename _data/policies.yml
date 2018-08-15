@@ -1,0 +1,75 @@
+## Template
+# - title: 
+#  section: ## Sections: External Link, Privacy Act, Section 508, Other Policies
+#  desc: 'Representatives from each major command in the US Air Force met March 5-7 at Travis Air Force Base, California, for an innovation summit focusing on the implementation of the Spark Innovation program at various bases across the Air Force. "The Spark Summit and the idea of base-level innovation is a reaction to the fact that we need to get smarter," said Col. Matthew Leard. "We can’t predict the threats we are going to face tomorrow, but one thing is certain:  To defeat our enemies and protect this country, we need a stronger and more agile and smarter military than ever before." said Vice President Mike Pence. For Leard,  Maj. Anthony Perez and the rest of Travis’ Phoenix Spark team, that stronger and smarter military starts at the grassroots. "Every base—every Airman has the capacity to come up with incredible solutions to problems facing the Air Force now or could face in the future. It’s up to us as officers, supervisors or even fellow Airmen to empower each other to make those strides and facilitate the processes that allow us to do so." said Perez'
+
+  - title: External Link Disclaimer Policy
+    section: External Link 
+    desc:
+      The appearance of hyperlinks does not constitute endorsement by the Phoenix Spark at Travis AFB, the 
+      United States Air Force, or the Department of Defense, of the external Web site, or the information, products or services 
+      contained therein. For other than authorized activities such as military exchanges and Morale, Welfare and Recreation (MWR) sites, 
+      the United States Air Force does not exercise any editorial control over the information you may find at these locations or 
+      the privacy and user policies of these locations.  Such links are provided consistent with the stated purpose of the Web site. 
+      References to non-federal entities do not constitute or imply Department of Defense or Air Force endorsement of any company or 
+      organization.
+
+  - title: Privacy Act Statement
+    section: Privacy Act
+    desc:
+      If you choose to provide us with personal information - like filling out a Contact Us form with e-mail and/or postal addresses - 
+      we only use that information to respond to your message or request. We will only share the information you give us with another 
+      government agency if your inquiry relates to that agency, or as otherwise required by law. We never create individual profiles 
+      or give it to any private organizations. Phoenix Spark at Travis AFB never collects information for commercial marketing. 
+      While you must provide an e-mail address or postal address for a response other than those generated automatically in response 
+      to questions or comments that you may submit, we recommend that you NOT include any other personal information, especially 
+      Social Security numbers. The Social Security Administration offers additional guidance on sharing your Social Security number.
+
+  - title: Overview
+    section: Section 508
+    desc:
+      Section 508 of the Rehabilitation Act of 1973, as amended (29 U.S.C. 794d) requires that when Federal agencies 
+      develop, procure, maintain, or use information and communication technology (ICT), Federal employees with disabilities 
+      have access to and use of information and data that is comparable to the access and use by Federal employees who are not 
+      individuals with disabilities, unless an undue burden would be imposed on the agency. Section 508 also requires that 
+      individuals with disabilities, who are members of the public seeking information or services from a Federal agency, 
+      have access to and use of information and data that is comparable to that provided to the public who are not individuals 
+      with disabilities, unless an undue burden would be imposed on the agency. 
+      <a href='https://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx' title='DoD Section 508 Informantion'>
+        Section 508 Information for the Department of Defense
+      </a>
+  
+  - title: Implementation
+    section: Section 508
+    desc:
+      Travisspark.org is developed using the U.S Web Design System (USWDS). This is an open source library of components intended for 
+      use in U.S Federal Websites. The U.S Digital Service and 18F created the design system to create beautiful websites which 
+      follow web-accessibility guidelines. Learn more by visiting the 
+      <a href='https://designsystem.digital.gov/' title='U.S Web Design System Home'>
+        Homepage for USWDS
+      </a>
+  
+  - title: Testing and Improvement
+    section: Section 508
+    desc:
+      Travisspark.org tests compliance with Section 508 using two software tools. The first is   
+      <a href='http://wave.webaim.org/' title='Web Accessibility Evalution Tool'>
+        WAVE
+      </a>, 
+      which examines the structure of the website. The second is 
+      <a href='https://accessibility.oit.ncsu.edu/tools/color-contrast-chrome/' title='Color Contrast Analyzer'>
+        Color Contrast Analyzer
+      </a>, 
+      which determines whether two adjacent colors can be easily distinguished from each other. If you are having difficulty accessing
+      parts of this website, please contact us with your concern or fill out the 
+      <a href = 'https://dodcio.defense.gov/DoDSection508/Section-508-Form/' title='DoD Section 508 Issues Form'>
+        Form for Section 508 Issues, Complaints, and Concerns.
+      </a> 
+
+  - title: Air Force and DoD Web Policies
+    section: Web Policies
+    desc:
+      Interested in knowing the Web policies of the Air Force and the Department of Defense? You can review the relevant
+      <a href='https://www.af.mil/Web-Policy/' title='Web Policy Regulations'>Air Force and DoD Web Regulations</a>. 
+      Please let us know about existing external links which you believe are inappropriate and about specific additional 
+      external links which you believe ought to be included.
