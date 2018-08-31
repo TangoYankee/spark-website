@@ -75,41 +75,19 @@ By making a contribution to this project, I certify that:
 
 ## New Developer Guide
 
-In the spirit educating Airmen, this repository contains overviews of key concepts in contributing to open source projects. Please visit the [wiki](https://github.com/TravisSpark/spark-website/wiki) to learn about foundational concepts such as:
-<ol>
-  <li>Programming Languages</li>
-  <li>Code Development</li>
-  <ol>
-    <li>Command Line</li>
-    <li>Integrated Development Environments (IDEs)</li>
-    <li>Troubleshooting</li>
-    <li>Expert Googling</li>
-  </ol>
-  <li>Collaboration</li>
-  <ol>
-    <li>Version Control</li>
-    <li>Task Delegation</li>
-    <li>GitHub</li>
-    <li>Open Source Licensing</li>
-  </ol>
-  <li>spark-website Tools</li>
-  <ol>
-    <li>Languages</li>
-    <li>Testing</li>
-  </ol>
-</ol>
+In the spirit of educating Airmen, this repository contains overviews of key concepts in contributing to open source projects. It also contains guides on setting up and running spark-website on a personal computer. Please visit the [wiki](https://github.com/TravisSpark/spark-website/wiki) to learn more.
 
 ## Getting Started
 
 travisspark.org is a static web site generated using a piece of software called [Jekyll](https://jekyllrb.com/) which runs in the programming language [Ruby](https://www.ruby-lang.org). Development dependencies are managed using the [Bundler gem](http://bundler.io).
 
-This project uses Ruby version 2.3 which can be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv).
+This project uses Ruby version 2.5.1 which can be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv).
 
 ```
-rbenv install 2.3
+rbenv install 2.5.1
 ```
 
-Once you've installed Ruby 2.3, install the Bundler gem and Jekyll:
+Once you've installed Ruby 2.5.1, install the Bundler gem and Jekyll:
 
 ```
 gem install bundler

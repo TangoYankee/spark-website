@@ -11,7 +11,7 @@
    location: Phoenix Spark Lab Building 241 Travis AFB, CA
    desc: An open space for current and potential participants to update ongoing projects and pitch ideas.
    event_url: https://www.travisspark.org
-   section: Weekly Meeting ## Sections: Courses, Conferences, Weekly Meetings
+   section: Weekly Meeting 
    text_date: 1200, Every Friday ## <string> For Display
    start_date: 1900-01-01 ## <YYYY-MM-DD For Sorting
 
@@ -19,17 +19,17 @@
    location: Montgomery, Alabama
    desc: The AFITC Conference is the place where Air Force personnel and decision makers, as well as private industry IT and cyber security leaders, convene to not only share and review strategies but also explore the latest in cyber tools, software, and hardware.
    event_url: https://www.afitc-event.com/
-   section: Conferences
+   section: # Conferences
    text_date: 'Aug 27th-29th, 2018'
    start_date: 2018-08-27
 
  - title: NVIDIA’s GPU Technology Conference (GTC)
-   location: Washington, D.C
+   location: San Jose, CA
    desc: GTC is the premier AI and deep learning conference series, providing you with training, insights, and direct access to experts from NVIDIA and other leading organizations.
    event_url: https://www.nvidia.com/en-us/gtc-dc/
    section: Conferences
-   text_date: 'Oct 22-24, 2018'
-   start_date: 2018-10-22
+   text_date: 'March 18-22, 2018'
+   start_date: 2019-03-18
 
  - title: Air Force Additive Manufacturing Technical Interchange Meeting (AFAMTIM)
    location: Dayton, OH
@@ -51,6 +51,6 @@
    location: 1715 I St, Sacramento
    desc: An all-in-one makerspace, coworking facility, and startup incubator. We bring people, training, and advanced prototyping equipment together under one roof, giving innovators the opportunity to bring their vision to life.
    event_url: https://sacramento.hackerlab.org/en/events
-   section: Courses ## Sections: Courses, Conferences, Weekly Meetings
+   section: Courses 
    text_date: Ongoing ## <string> For Display
    start_date: 2020-01-01 ## <YYYY-MM-DD For Sorting
