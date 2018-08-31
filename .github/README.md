@@ -1,6 +1,6 @@
 # Welcome to Phoenix Spark at Travis Air Force Base
 
-As the inaugural Phoenix Spark Hub, Travis AFB provides leadership and is the role model for future SPARK programs across the Total Force. Through continuous organizational learning and inspiring a culture of innovation and empowerment, PHOENIX SPARK will deliver tomorrow’s innovative capabilities to the warfighter today. Learn more at [travisspark.org](travisspark.github.io/sparkwebsite)
+ As the inaugural Phoenix Spark Hub, Travis AFB is the role model for future Spark programs. By continuously learning as an organization, inspiring a culture of innovation, and empowering Airmen to lead at every level, Phoenix Spark is delivering tomorrow’s innovative capabilities to the warfighter today. Learn more at [travisspark.org](travisspark.github.io/sparkwebsite)
 
 ## This Repository
 
