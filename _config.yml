@@ -30,6 +30,4 @@ exclude:
   - 'build'
   - 'Gemfile'
   - 'Gemfile.lock'
-  - 'robots.txt-for-beta.code.mil'
-  - 'serve'
   - 'vendor'

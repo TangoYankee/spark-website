@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/18F/uswds-jekyll.git
-  revision: d6a85a29e889ef79bba76d0989dd66ed3689fd1a
+  revision: 9063de07ce09e308437eefba8f8d45f77ea2a9e2
   specs:
     uswds-jekyll (4.1.0)
       jekyll (~> 3.4)
@@ -262,11 +262,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
-  html-proofer
-  jekyll
+  github-pages (= 186)
+  html-proofer (= 3.9.1)
+  jekyll (~> 3.4)
   jekyll-remote-theme
   uswds-jekyll!
 
 BUNDLED WITH
-   1.16.2
+   1.16.3
