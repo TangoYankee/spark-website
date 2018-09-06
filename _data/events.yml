@@ -6,13 +6,21 @@
   #  section: ## Sections: Courses, Conferences, Weekly Meeting
   #  text_date: ## <string> For Display
   #  start_date:  ## <YYYY-MM-DD For Sorting
+
+ - title: STEAM Library Activities
+   location: Mitchell Memorial Library, 510 Travis Ave Travis AFB, CA 94535
+   desc: Activities for students to learn about Science, Technology, Engineering, Art, and Mathematics (STEAM). Past events include designing and building a toy roller coaster to learn about physics. Children 8 years and under must be accompanied by an adult.
+   event_url: http://www.mitchellmemoriallibrary.org/
+   section: Weekly Meeting ## Sections: Courses, Conferences, Weekly Meeting
+   text_date: 3:00-5:00 pm, Wednesdays ## <string> For Display
+   start_date: 1900-01-02 ## <YYYY-MM-DD For Sorting
  
  - title: Phoenix Spark Working Lunch
    location: Phoenix Spark Lab Building 241 Travis AFB, CA
    desc: An open space for current and potential participants to update ongoing projects and pitch ideas.
    event_url: https://www.travisspark.org
    section: Weekly Meeting 
-   text_date: 1200, Every Friday ## <string> For Display
+   text_date: 12:00 pm, Fridays ## <string> For Display
    start_date: 1900-01-01 ## <YYYY-MM-DD For Sorting
 
  - title: The Air Force Information Technology & Cyberpower (AFITC) Conference 
@@ -28,7 +36,7 @@
    desc: GTC is the premier AI and deep learning conference series, providing you with training, insights, and direct access to experts from NVIDIA and other leading organizations.
    event_url: https://www.nvidia.com/en-us/gtc-dc/
    section: Conferences
-   text_date: 'March 18-22, 2018'
+   text_date: 'March 18-22, 2019'
    start_date: 2019-03-18
 
  - title: Air Force Additive Manufacturing Technical Interchange Meeting (AFAMTIM)
