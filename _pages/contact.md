@@ -57,6 +57,13 @@ sidenav: contact
         {% endfor %}
         </ul>
     </fieldset>
+    <!-- Input: 26 Oct Programming event -->
+    <fieldset class="usa-fieldset-inputs usa-sans">
+        <label for="{{ contact_data.event-interest.id }}">{{ contact_data.event-interest.legend }}</label>
+        <legend class="usa-sr-only">{{ contact_data.event-interest.legend }}</legend>
+            <input id ="{{ contact_data.event-interest.value | slugify }}" type="checkbox" name="{{ contact_data.event-interest.name }}" value="{{ contact_data.event-interest.value }}">
+            <label for="{{ contact_data.event-interest.value | slugify }}">{{ contact_data.event-interest.text }}</label>
+    </fieldset>
     <!-- Input: User Message -->
     <label for="{{ contact_data.user-message.id }}">{{ contact_data.user-message.text }}</label>
     <textarea id="{{ contact_data.user-message.id }}" name="{{ contact_data.user-message.name }}"></textarea>

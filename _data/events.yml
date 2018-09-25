@@ -39,11 +39,21 @@
    text_date: 'March 18-22, 2019'
    start_date: 2019-03-18
 
+ - title: Phoenix Spark Programming Event
+   location: Innovation Lab
+   desc: 
+     Phoenix Spark is hosting an event for Airmen to demonstrate and develop their coding capabilities. This is an opporunity to network, build diverse teams,
+     and learn together. Participants will choose from a set of problems and build solutions in Python, Swift, Java, HTML/CSS/Javascript, and Powershell.
+   event_url: https://travisspark.org/contact
+   section: Conferences ## Sections: Courses, Conferences, Weekly Meeting
+   text_date: 3:00 pm 26th Oct, 2018 ## <string> For Display
+   start_date: 2018-10-26 ## <YYYY-MM-DD For Sorting
+
  - title: Air Force Additive Manufacturing Technical Interchange Meeting (AFAMTIM)
    location: Dayton, OH
    desc: AFAMTIM is the premier USAF Additive Manufacturing (AM) showcase offering technology demonstrations, collaborative learning opportunities, USAF AM polymer operator qualification, and insight into future technologies around AM to ultimately accelerate the technical transition and adoption of AM within the USAF.
    event_url: http://www.afcpo.com/additivemanufacturing.html
-   section: Conferences
+   section: # Conferences
    text_date: 'Sep 26-28, 2018' #For Display
    start_date: 2018-09-26 #For Sorting
 
