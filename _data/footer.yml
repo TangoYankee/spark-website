@@ -26,9 +26,9 @@ contact:
     - text: <span class='usa-link-trello usa-social_link' title='https://trello.com/travishubteam'><span>Trello</span></span>
       href: https://trello.com/travishubteam
       external: true
-    - text: <span class='usa-link-slack usa-social_link' title='https://60amwphoenixsparkhub.slack.com'><span>Slack</span></span>
-      href: https://60amwphoenixsparkhub.slack.com
-      external: true
+    # - text: <span class='usa-link-slack usa-social_link' title='https://60amwphoenixsparkhub.slack.com'><span>Slack</span></span>
+    #   href: https://60amwphoenixsparkhub.slack.com
+    #   external: true 
     - text: <span class='usa-link-linkedin usa-social_link' title='https://www.linkedin.com/company/travis-afb-phoenix-spark/'><span>LinkedIn</span></span>
       href: https://www.linkedin.com/company/travis-afb-phoenix-spark/
       external: true
