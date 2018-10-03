@@ -17,10 +17,10 @@ sidenav: news
 {% assign news_data = site.data.news | sort:"date" | reverse %}
 
 <!-- Find length of Navigation Array, iterate through this later -->
-{% assign end_nav_data = nav_data | size | minus:1 %}
+<!-- {% assign end_nav_data = nav_data | size | minus:1 %} -->
 
 <!-- Iterate through all of the navigation sections. Start at one because zero is just the top header -->
-{% for section_count in (0..end_nav_data ) %}
+{% for section_count in (0..nav_data ) %}
 
 <a name="{{ nav_data[section_count].text | slugify }}"></a>
 <h2>{{ nav_data[section_count].text }}</h2>
