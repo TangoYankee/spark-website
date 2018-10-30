@@ -54,9 +54,9 @@ user-message:
   text: Message
   name: entry.839337160
 
-event-interest:
-  id: event-interest
-  text: I'm interested in the 26 Oct Programming Event (Military Only)
-  legend: Events
-  name: entry.212837715
-  value: Interested
+# event-interest:
+#   id: event-interest
+#   text: I'm interested in the 26 Oct Programming Event (Military Only)
+#   legend: Events
+#   name: entry.212837715
+#   value: Interested
