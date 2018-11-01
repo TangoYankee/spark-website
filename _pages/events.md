@@ -17,7 +17,7 @@ sidenav: events
 <!-- events Sorted by First to occur-->
 {% assign events_data = site.data.events | sort:"start_date" %}
 
-<!-- Iterate through all of the navigation sections. Start at one because zero is just the top header (Legacy Feature)-->
+<!-- Iterate through all of the navigation sections.-->
 {% for section in nav_data %}
 
 <a name="{{ section.text | slugify }}"></a>
