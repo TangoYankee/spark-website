@@ -1,41 +1,19 @@
 ---
-title: Policies
-permalink: /policies/
+title: Contact Us
+permalink: /contact/
+
 layout: page
-sidenav: policies
+sidenav: contact
+
+# subnav:
+#   - text: Section one
+#     href: '#section-one'
+#   - text: Section two
+#     href: '#section-two'
 ---
-<!-- Section names and addresses from navigation bar -->
-{% assign nav_data = site.data.navigation.policies %}
+{% assign contact_data = site.data.contact %}
+{% assign nav_data = site.data.navigation.contact %}
 
-<!-- policies-->
-{% assign policies_data = site.data.policies %}
-
-<!-- Find length of Navigation Array, iterate through this later (Legacy Feature) -->
-<!-- {% assign end_nav_data = nav_data | size | minus:1 %} -->
-
-<!-- Iterate through all of the navigation sections. Start at one because zero is just the top header (Legacy Feature) -->
-{% for section_count in (0..nav_data ) %}
-<a name="{{ nav_data[section_count].text | slugify }}"></a>
-<h2>{{ nav_data[section_count].text }}</h2>
-<hr>
-
-<!-- In each section, get only the policies assigned to it -->
-{% assign section_data = policies_data | where:"section",nav_data[section_count].text %}
-
-<!-- Display the information for all of the policies assigned to that section -->
-{% for each_policies in section_data %}
-<div>
- <h3>{{ each_policies.title }}</h3>
- <p>{{ each_policies.desc }}</p>
-</div>
-
-<!-- Close policies Iteration -->
-{% endfor %}
-
-<<<<<<< HEAD
-<!-- Close Section Iteration -->
-{% endfor %}
-=======
 <form action="{{ contact_data.google-forms.action-link}}">
     <!-- Section: Personal Information -->
     <a name="{{ nav_data[0].text | slugify }}"></a>
@@ -80,12 +58,12 @@ sidenav: policies
         </ul>
     </fieldset>
     <!-- Input: 26 Oct Programming event -->
-    <!-- <fieldset class="usa-fieldset-inputs usa-sans">
+    <fieldset class="usa-fieldset-inputs usa-sans">
         <label for="{{ contact_data.event-interest.id }}">{{ contact_data.event-interest.legend }}</label>
         <legend class="usa-sr-only">{{ contact_data.event-interest.legend }}</legend>
             <input id ="{{ contact_data.event-interest.value | slugify }}" type="checkbox" name="{{ contact_data.event-interest.name }}" value="{{ contact_data.event-interest.value }}">
             <label for="{{ contact_data.event-interest.value | slugify }}">{{ contact_data.event-interest.text }}</label>
-    </fieldset> -->
+    </fieldset>
     <!-- Input: User Message -->
     <label for="{{ contact_data.user-message.id }}">{{ contact_data.user-message.text }}</label>
     <textarea id="{{ contact_data.user-message.id }}" name="{{ contact_data.user-message.name }}"></textarea>
@@ -93,4 +71,3 @@ sidenav: policies
     <p> {{ contact_data.google-forms.message }}<a href="{{ contact_data.google-forms.home-link }}">{{ contact_data.google-forms.text }}</a><br><i>{{ contact_data.google-forms.disclaimer }}</i></p>
     <input type="submit" value="Submit">
 </form>
->>>>>>> 7655cc80f067bc8525f583f1d8e7167167227b4e
