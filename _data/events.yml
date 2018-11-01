@@ -45,7 +45,7 @@
      Phoenix Spark is hosting an event for Airmen to demonstrate and develop their coding capabilities. This is an opporunity to network, build diverse teams,
      and learn together. Participants will choose from a set of problems and build solutions in Python, Swift, Java, HTML/CSS/Javascript, and Powershell.
    event_url: https://travisspark.org/contact
-   section: Conferences ## Sections: Courses, Conferences, Weekly Meeting
+   section: # Conferences ## Sections: Courses, Conferences, Weekly Meeting
    text_date: 3:00 pm 26th Oct, 2018 ## <string> For Display
    start_date: 2018-10-26 ## <YYYY-MM-DD For Sorting
 
