@@ -16,18 +16,15 @@ sidenav: news
 <!-- News Articles Sorted by Newest First -->
 {% assign news_data = site.data.news | sort:"date" | reverse %}
 
-<!-- Find length of Navigation Array, iterate through this later -->
-{% assign end_nav_data = nav_data | size | minus:1 %}
+<!-- Iterate through all of the navigation sections. -->
+{% for section in nav_data %}
 
-<!-- Iterate through all of the navigation sections. Start at one because zero is just the top header -->
-{% for section_count in (0..end_nav_data ) %}
-
-<a name="{{ nav_data[section_count].text | slugify }}"></a>
-<h2>{{ nav_data[section_count].text }}</h2>
+<a name="{{ section.text | slugify }}"></a>
+<h2>{{ section.text }}</h2>
 <hr>
 
 <!-- In each section, get only the news articles assigned to it -->
-{% assign section_data = news_data | where:"section",nav_data[section_count].text %}
+{% assign section_data = news_data | where:"section",section.text %}
 
 <!-- Display the information for all of the news articles assigned to that section -->
 {% for each_article in section_data %}

@@ -17,18 +17,15 @@ sidenav: events
 <!-- events Sorted by First to occur-->
 {% assign events_data = site.data.events | sort:"start_date" %}
 
-<!-- Find length of Navigation Array, iterate through this later (Legacy Feature)-->
-{% assign end_nav_data = nav_data | size | minus:1 %}
+<!-- Iterate through all of the navigation sections.-->
+{% for section in nav_data %}
 
-<!-- Iterate through all of the navigation sections. Start at one because zero is just the top header (Legacy Feature)-->
-{% for section_count in (0..end_nav_data ) %}
-
-<a name="{{ nav_data[section_count].text | slugify }}"></a>
-<h2>{{ nav_data[section_count].text }}</h2>
+<a name="{{ section.text | slugify }}"></a>
+<h2>{{ section.text }}</h2>
 <hr>
 
 <!-- In each section, get only the events assigned to it -->
-{% assign section_data = events_data | where:"section",nav_data[section_count].text %}
+{% assign section_data = events_data | where:"section",section.text %}
 
 <!-- Display the information for all of the events assigned to that section -->
 {% for each_event in section_data %}
