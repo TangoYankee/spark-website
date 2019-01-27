@@ -8,7 +8,7 @@ hero:
   image: /assets/images/spark-logo-crop-skew.png
   callout:
     alt: "Travis AFB:"
-    text: Phoenix Spark Hub for Innovation
+    text: Phoenix Spark Cell for Innovation
   button:
     href: /events/#weekly-meeting
     text: Join US
@@ -22,7 +22,7 @@ tagline: Innovations by the Warfighter, for the Warfighter
 intro:
   "<p>In January 2016, leaders at Travis Air Force Base (AFB) issued a grand challenge: <i>how do we leverage our Airmen’s ingenuity and the technical expertise in Silicon Valley to bring tomorrow’s capabilities to the Warfighter today?</i>  From this challenge, the Travis AFB Innovation Office was formed- a volunteer group that connects the military's operational experts with industry and academia's problem-solvers. These partnerships bolstered innovation efforts within the Air Force, created a forum to solve base-level capability gaps, and allowed for the discovery of previously unknown opportunities. Ultimately, it enhanced mission effectiveness across the enterprise.<p>
   
-  <p>The Travis AFB Innovation Office fostered a grassroots movement which incorporated operational experts into the design and development processes. Through an iterative solution framework, they were able to agiley respond to the Warfighters' needs. This model gained the attention of the Air Mobility Command (AMC) commander. In April of 2017, the AMC commander chartered Phoenix Spark- an intiative to further grassroots innovation.  As the inaugural Phoenix Spark Hub, Travis AFB is the role model for future Spark programs. By continuously learning as an organization, inspiring a culture of innovation, and empowering Airmen to lead at every level, Phoenix Spark is <i>delivering tomorrow’s innovative capabilities to the warfighter today.</i></p>"
+  <p>The Travis AFB Innovation Office fostered a grassroots movement which incorporated operational experts into the design and development processes. Through an iterative solution framework, they were able to agiley respond to the Warfighters' needs. This model gained the attention of the Air Mobility Command (AMC) commander. In April of 2017, the AMC commander chartered Phoenix Spark- an intiative to further grassroots innovation.  As the inaugural Phoenix Spark Cell, Travis AFB is the role model for future Spark programs. By continuously learning as an organization, inspiring a culture of innovation, and empowering Airmen to lead at every level, Phoenix Spark is <i>delivering tomorrow’s innovative capabilities to the warfighter today.</i></p>"
 
 graphics:
   - image:
