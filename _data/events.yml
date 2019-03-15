@@ -31,6 +31,14 @@
    text_date: 'Aug 27th-29th, 2018'
    start_date: 2018-08-27
 
+ - title: Defense Executive Technology Entrepreneurs Course (DETEC)
+   location: Austin, TX
+   desc: DETEC is not a traditional classroom training course. It is modeled after executive education seminars from top MBA programs. The format of the course combines seminar-style discussion, dynamic presentations from experienced leaders, interactive design thinking workshops, and in-person events with tech executives and leaders across government. The fast-paced DETEC course will arm participants with an actionable plan to drive innovation across their organization. Participants will workshop their existing challenges throughout a three day program. Hands-on expert-led workshops help leaders identify the right tech solutions, lead effective implementation and measurement, and manage transformation across teams and stakeholders. Leaders will leave the DETEC program with practical knowledge, a tactical plan tailored to their organization, and an exceptional network of peers and coaches to provide ongoing support. 
+   event_url: https://detec.dcode.co/
+   section: Conferences
+   text_date: 'March 26-29, 2019'
+   start_date: 2019-03-15
+   
  - title: NVIDIA’s GPU Technology Conference (GTC)
    location: San Jose, CA
    desc: GTC is the premier AI and deep learning conference series, providing you with training, insights, and direct access to experts from NVIDIA and other leading organizations.
