@@ -18,7 +18,7 @@
  - title: Phoenix Spark Working Lunch
    location: Phoenix Spark Lab Building 181 (6 ARS 1st Floor) Travis AFB, CA
    desc: An open space for current and potential participants to update ongoing projects and pitch ideas.
-   event_url: https://goo.gl/maps/pTQHQdHPxvH2
+   event_url: https://www.google.com/maps/place/Phoenix+Spark/@38.2675033,-121.9395763,17z/data=!3m1!4b1!4m5!3m4!1s0x80853fabcc171347:0x871cbb4a5624e727!8m2!3d38.2674991!4d-121.9373876
    section: Weekly Meeting 
    text_date: 12:00 pm, Fridays ## <string> For Display
    start_date: 1900-01-01 ## <YYYY-MM-DD For Sorting
