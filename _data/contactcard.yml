@@ -1,9 +1,0 @@
- - title: STEAM Library Activities
-   location: Mitchell Memorial Library, 510 Travis Ave Travis AFB, CA 94535
-   desc: Activities for students to learn about Science, Technology, Engineering, Art, and Mathematics (STEAM). Past events include designing and building a toy roller coaster to learn about physics. Children 8 years and under must be accompanied by an adult.
-   event_url: http://www.mitchellmemoriallibrary.org/
-   section: Weekly Meeting ## Sections: Courses, Conferences, Weekly Meeting
-   text_date: 3:00-5:00 pm, Wednesdays ## <string> For Display
-   start_date: 1900-01-02 ## <YYYY-MM-DD For Sorting
-   
-   
