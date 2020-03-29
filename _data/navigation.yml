@@ -7,6 +7,8 @@ primary:
     href: /contact/
   - text: Policies
     href: /policies/
+  - text: Tangled City Homepage
+    href: https://tangled.city/
 
 ## For events, news, and contact, the corresponding markdown pages pull their section names and addresses from the text value.
 ## In the Markdown file, the section address is just the slugified text of the section. Therefore, for each section, the address
