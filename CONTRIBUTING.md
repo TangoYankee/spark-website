@@ -152,7 +152,9 @@ While there are automated checks on every PR, you can run the build process loca
 The news and events listed on the website are designed to be quickly edited to reflect how often they change. Consequently, there are two data files that each contain all of the relevant news and events. These data are in a YAML format and follow a template unique to each category. If the intention is to simply change the content of news or events, only these files need to be changed. The changes will automatically be sorted and formatted.
 
 #### News
+
 [File Location](https://github.com/tangoyankee/spark-website/blob/master/_data/news.yml)
+
 
 **title**, **author**, **org** *(press organization)*, **desc** *(description)*, and **press_link** are are self-explanatory. **section** is used to sort under which header the event will appear on the site. It must be an exact match for **Collaboration**, **Outreach**, or **Technology**. Otherwise, it will not appear. In fact, this is a good way to hide old articles that shouldn't be displayed but aren't ready to be deleted.  **date** is formatted as YYYY-MM-DD. It is used to sort the articles, from latest to earliest. 
 ```
@@ -166,7 +168,9 @@ The news and events listed on the website are designed to be quickly edited to r
 ```
 
 #### Events
+
 [File Location](https://github.com/tangoyankee/spark-website/blob/master/_data/events.yml)
+
 
 **title**, **location**, **desc** *(description)*, and **event_url** are are self-explanatory. **section** is used to sort under which header the event will appear on the site. It must be an exact match for **Courses**, **Conferences**, or **Weekly Meeting**. Otherwise, it will not appear. In fact, this is a good way to hide old events that shouldn't be displayed but aren't ready to be deleted. Because events have different dates or can be recurring, **Text_date** is used only for display purposes. This gives it flexibility in its format. **start_date** is read as a date. It is formatted as YYYY-MM-DD. It is used to sort the events, from earliest to latest. Some recurring events are set far into the past, to make sure they always appear on top. 
 
