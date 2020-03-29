@@ -1,0 +1,10 @@
+.git
+.gitignore
+.github/
+
+*.md
+
+.ruby-version
+.ruby-gemset
+
+.rvmrc
