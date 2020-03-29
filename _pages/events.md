@@ -11,6 +11,7 @@ sidenav: events
 #   - text: Section two
 #     href: '#section-two'
 ---
+<p><i>Events are not updated</i><p>
 <!-- Section names and addresses from navigation bar -->
 {% assign nav_data = site.data.navigation.events %}
 
