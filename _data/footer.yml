@@ -20,8 +20,8 @@ contact:
     # - text: <span class='usa-link-twitter usa-social_link' title='Twitter'><span>Twitter</span></span>
     #   href: https://twitter.com/DefenseDigital
     #   external: true
-    - text: <span class='usa-link-github usa-social_link' title='https://github.com/TravisSpark/spark-website'><span>GitHub</span></span>
-      href: https://github.com/TravisSpark/spark-website
+    - text: <span class='usa-link-github usa-social_link' title='https://github.com/tangoyankee/spark-website'><span>GitHub</span></span>
+      href: https://github.com/tangoyankee/spark-website
       external: true
     - text: <span class='usa-link-trello usa-social_link' title='https://trello.com/travishubteam'><span>Trello</span></span>
       href: https://trello.com/travishubteam
@@ -52,5 +52,5 @@ contact:
     - text: Media Contact
       href: /policies/#media
     # - text: Help build this website
-    #   href: https://github.com/TravisSpark/spark-website
+    #   href: https://github.com/tangoyankee/spark-website
 

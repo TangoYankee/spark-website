@@ -1,5 +1,5 @@
 ### Checklist
- - [ ] Searched for, and did not find, duplicate [issue](https://github.com/TravisSpark/spark-website/issues)
+ - [ ] Searched for, and did not find, duplicate [issue](https://github.com/tangoyankee/spark-website/issues)
  - [ ] Indicated whether the issue is a bug or a feature
  - [ ] Focused on one specific bug/feature
  - [ ] Gave a concise and relevant name

@@ -2,7 +2,7 @@
 
 #form data
 google-forms:
-  action-link: https://docs.google.com/forms/d/e/1FAIpQLSdTDqh0WWT3WccMbaW_C2hW6fR-QKex5qTx3f30CIOcXieeKA/formResponse
+  # action-link: https://docs.google.com/forms/d/e/1FAIpQLSdTDqh0WWT3WccMbaW_C2hW6fR-QKex5qTx3f30CIOcXieeKA/formResponse
   home-link: https://docs.google.com/forms
   message: 'This service is powered by: '
   text: Google Forms

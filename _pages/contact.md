@@ -11,6 +11,7 @@ sidenav: contact
 #   - text: Section two
 #     href: '#section-two'
 ---
+<p><i>Form is deactivated</i></p>
 {% assign contact_data = site.data.contact %}
 {% assign nav_data = site.data.navigation.contact %}
 
@@ -71,3 +72,4 @@ sidenav: contact
     <p> {{ contact_data.google-forms.message }}<a href="{{ contact_data.google-forms.home-link }}">{{ contact_data.google-forms.text }}</a><br><i>{{ contact_data.google-forms.disclaimer }}</i></p>
     <input type="submit" value="Submit">
 </form>
+<p><i>Form is deactivated</i></p>
