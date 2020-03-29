@@ -17,7 +17,7 @@ Among other areas, Phoenix Spark is driving the organization and development of 
 
 There are several opportunitities to contribute to projects at Phoenix Spark:
 
-1. Contribute to this website by reviewing its [Contributing.md](https://github.com/tangoyankee/spark-website/blob/gh-pages/CONTRIBUTING.md)
+1. Contribute to this website by reviewing its [Contributing.md](https://github.com/tangoyankee/spark-website/blob/master/CONTRIBUTING.md)
 2. Explore the [TravisSpark](https://github.com/TravisSpark) GitHub Organization to collaborate on an existing project or create a new project
 <!-- 3. Contact us at [travisspark.org](https://travisspark.org/contact/) to find interesting projects in topics that include, [3-D Printing](https://3dprint.com/218699/air-force-3d-printing-cups/), Drones, Additive Manufacturing, Virtual Reality, Machine Learning, and Operational Management Theory -->
 
