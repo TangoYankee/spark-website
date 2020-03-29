@@ -1,27 +1,56 @@
+type: medium
+
 top: true
 
-heading: Code.mil
+# edit_page:
+#   text: This page is open source. Contribute here.
+  
+heading: <a href='https://www.travis.af.mil/' title='Travis AFB Main Page'>60th Air Mobility Wing</a>
 
 logos:
-  - src: /assets/images/dod_seal.svg
-    alt: DoD
+  - src:  https://18f.gsa.gov/assets/img/logos/18f-logo.svg
+    alt: 18F
     external: false
-  - src: /assets/images/dds-logo-desktop-full.png
-    alt: DDS
+  - src: /assets/images/usaf-seal.png
+    alt: USAF
     external: false
 
 contact:
   social_links:
-    - text: <span class='usa-link-twitter usa-social_link' title='Twitter'><span>Twitter</span></span>
-      href: https://twitter.com/DefenseDigital
+    # - text: <span class='usa-link-twitter usa-social_link' title='Twitter'><span>Twitter</span></span>
+    #   href: https://twitter.com/DefenseDigital
+    #   external: true
+    - text: <span class='usa-link-github usa-social_link' title='https://github.com/TravisSpark/spark-website'><span>GitHub</span></span>
+      href: https://github.com/TravisSpark/spark-website
       external: true
-    - text: <span class='usa-link-github usa-social_link' title='GitHub'><span>GitHub</span></span>
-      href: https://github.com/Code-dot-mil/code.mil
+    - text: <span class='usa-link-trello usa-social_link' title='https://trello.com/travishubteam'><span>Trello</span></span>
+      href: https://trello.com/travishubteam
       external: true
-    - text: <span class='usa-link-medium usa-social_link' title='Medium'><span>Medium</span></span>
-      href: https://medium.com/defense-digital-service
+    - text: <span class='usa-link-slack usa-social_link' title='https://afexcellence.slack.com/'><span>Slack</span></span>
+      href: https://afexcellence.slack.com/
+      external: true 
+    - text: <span class='usa-link-linkedin usa-social_link' title='https://www.linkedin.com/company/travis-afb-phoenix-spark/'><span>LinkedIn</span></span>
+      href: https://www.linkedin.com/company/travis-afb-phoenix-spark/
       external: true
-  heading: Contact us
-  contact_links:
-    - text: code@dds.mil
+    - text: <span class='usa-link-email usa-social_link' title='{{site.email}}'><span>Email</span></span>
       href: mailto:{{site.email}}
+      external: true
+    # - text: <span class='usa-link-medium usa-social_link' title='Medium'><span>Medium</span></span>
+    #   href: https://medium.com/defense-digital-service
+    #   external: true
+  # heading: Our Information
+  heading: '#poweredbyspark'
+  contact_links:
+    # - text: '{{site.email}}'
+    #   href: mailto:{{site.email}}
+    - text: Link Disclaimer
+      href: /policies/#external-link
+    - text: Accessibility
+      href: /policies/#section-508
+    - text: FOIA
+      href: /policies/#foia
+    - text: Media Contact
+      href: /policies/#media
+    # - text: Help build this website
+    #   href: https://github.com/TravisSpark/spark-website
+

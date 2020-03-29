@@ -1,0 +1,62 @@
+## TODO: Add fields to sort by type of input and presence of list of items. 
+
+#form data
+google-forms:
+  action-link: https://docs.google.com/forms/d/e/1FAIpQLSdTDqh0WWT3WccMbaW_C2hW6fR-QKex5qTx3f30CIOcXieeKA/formResponse
+  home-link: https://docs.google.com/forms
+  message: 'This service is powered by: '
+  text: Google Forms
+  disclaimer: Never submit passwords through Google Forms
+
+personal-name:
+  id: personal-name
+  text: Name
+  name: entry.2005620554
+
+personal-email: 
+  id: personal-email
+  text: Email
+  name: entry.1045781291
+
+organization-name:
+  id: organization-name
+  text: Organization Name
+  name: entry.1166974658  
+
+organization-type:
+  id: organization-type
+  text: Type of Organization
+  name: entry.1875847283    
+  types:
+    - Department of Defense
+    - Government (Non DoD)   
+    - Academia
+    - Non-Profit   
+    - Commercial Industry
+    - Other
+
+interest-areas:
+  id: interest-areas
+  text: Topics
+  legend: Interest Areas
+  name: entry.521051122
+  areas:
+    - Open Source Software
+    - Machine Learning
+    - Virtual Reality
+    - Automation & Robotics
+    - 3D-Printing
+    - Manufacturing
+    - Operational Management Theory
+
+user-message:
+  id: user-message
+  text: Message
+  name: entry.839337160
+
+# event-interest:
+#   id: event-interest
+#   text: I'm interested in the 26 Oct Programming Event (Military Only)
+#   legend: Events
+#   name: entry.212837715
+#   value: Interested

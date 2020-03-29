@@ -1,8 +1,10 @@
-usa_banner: true
+type: basic
 
-type: extended
+primary:
+  links: primary
+
 
 secondary:
-  links: top
+  links: secondary
 
-government_tld: .mil
+# government_tld: .mil

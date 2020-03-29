@@ -1,13 +1,15 @@
 # Contributing to Our Projects, Version 1.5
 
-**NOTE: This CONTRIBUTING.md is for software contributions. You do not need to follow the Developer's Certificate of Origin (DCO) process for commenting on the Code.mil repository documentation, such as CONTRIBUTING.md, INTENT.md, etc. or for submitting issues.**
+**NOTE: This CONTRIBUTING.md is for software contributions. You do not need to follow the Developer's Certificate of Origin (DCO) process for commenting on repository documentation, such as CONTRIBUTING.md, INTENT.md, etc. or for submitting issues.** 
+**These guidelines were originally developed by code.mil and have been adapted for travisspark.org**
 
 Thanks for thinking about using or contributing to this software ("Project") and its documentation!
-
 * [Policy & Legal Info](#policy)
+* [New Developer Guide](#new-developer-guide)
 * [Getting Started](#getting-started)
 * [Submitting an Issue](#submitting-an-issue)
 * [Submitting Code](#submitting-code)
+* [News and Events](#news-and-events)
 
 ## Policy
 
@@ -71,17 +73,21 @@ By making a contribution to this project, I certify that:
     this project or the open source license(s) involved.
 ```
 
+## New Developer Guide
+
+In the spirit of educating Airmen, this repository contains overviews of key concepts in contributing to open source projects. It also contains guides on setting up and running spark-website on a personal computer. Please visit the [wiki](https://github.com/TravisSpark/spark-website/wiki) to learn more.
+
 ## Getting Started
 
-Code.mil is a static web site generated using a piece of software called [Jekyll](https://jekyllrb.com/) which runs in the programming language [Ruby](https://www.ruby-lang.org). Development dependencies are managed using the [Bundler gem](http://bundler.io).
+travisspark.org is a static web site generated using a piece of software called [Jekyll](https://jekyllrb.com/) which runs in the programming language [Ruby](https://www.ruby-lang.org). Development dependencies are managed using the [Bundler gem](http://bundler.io).
 
-This project uses Ruby version 2.5.0 which can be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv).
+This project uses Ruby version 2.5.1 which can be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv).
 
 ```
-rbenv install 2.5.0
+rbenv install 2.5.1
 ```
 
-Once you've installed Ruby 2.5.0, install the Bundler gem and Jekyll:
+Once you've installed Ruby 2.5.1, install the Bundler gem and Jekyll:
 
 ```
 gem install bundler
@@ -113,7 +119,7 @@ Your bug fix or feature addition won't be rejected if it runs afoul of any (or a
 
 ## Submitting an Issue
 
-You should feel free to [submit an issue](https://github.com/Code-dot-mil/code.mil/issues) on our GitHub repository for anything you feel needs attention on the site. That includes content, functionality, design, or anything else!
+You should feel free to [submit an issue](https://github.com/TravisSpark/spark-website/issues) on our GitHub repository for anything you feel needs attention on the site. That includes content, functionality, design, or anything else!
 
 ### Submitting a Bug
 
@@ -127,11 +133,11 @@ When submitting a bug on the site please be sure to add extensive information ab
 
 ## Submitting Code
 
-When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [Pull Request (PR)](https://github.com/Code-dot-mil/code.mil/pulls) on GitHub. Your request will go through some automated checks using [Travis CI](https://travis-ci.org/Code-dot-mil/code.mil/), a continuous integration and deployment tool.
+When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [Pull Request (PR)](https://github.com/TravisSpark/spark-website/pulls) on GitHub. Your request will go through some automated checks using [Travis CI](https://travis-ci.org/TravisSpark/spark-website/), a continuous integration and deployment tool.
 
-After review by the Code.mil team your PR will either be commented on with a request for more information or changes, or it will be merged into the codebase which will automatically deploy the changes to [beta.code.mil](http://beta.code.mil).
+After review by the travisspark.org team, your PR will either be commented on with a request for more information or changes, or it will be merged into the codebase which will automatically deploy the changes to the live site.
 
-Assuming everything checks out, the Code.mil team will deploy the changes to [code.mil](http://code.mil) by creating a [new release](https://github.com/Code-dot-mil/code.mil/releases/new) on master with a tag like vX.X.X (where X is between 0 and 9), human readable title, and any other relevent context in the description.
+To join the spark-website team, contact the TravisSpark GitHub organization administrator at 60AMW.PS.PhoenixSpark@us.af.mil
 
 ### Check Your Changes
 
@@ -139,4 +145,37 @@ While there are automated checks on every PR, you can run the build process loca
 
 ```
 ./build
+```
+
+## News and Events
+
+The news and events listed on the website are designed to be quickly edited to reflect how often they change. Consequently, there are two data files that each contain all of the relevant news and events. These data are in a YAML format and follow a template unique to each category. If the intention is to simply change the content of news or events, only these files need to be changed. The changes will automatically be sorted and formatted.
+
+#### News
+[File Location](https://github.com/TravisSpark/spark-website/blob/gh-pages/_data/news.yml)
+
+**title**, **author**, **org** *(press organization)*, **desc** *(description)*, and **press_link** are are self-explanatory. **section** is used to sort under which header the event will appear on the site. It must be an exact match for **Collaboration**, **Outreach**, or **Technology**. Otherwise, it will not appear. In fact, this is a good way to hide old articles that shouldn't be displayed but aren't ready to be deleted.  **date** is formatted as YYYY-MM-DD. It is used to sort the articles, from latest to earliest. 
+```
+- title: 
+  author: 
+  org: 
+  date: #YYYY-MM-DD
+  desc: 
+  press_link: 
+  section: 
+```
+
+#### Events
+[File Location](https://github.com/TravisSpark/spark-website/blob/gh-pages/_data/events.yml)
+
+**title**, **location**, **desc** *(description)*, and **event_url** are are self-explanatory. **section** is used to sort under which header the event will appear on the site. It must be an exact match for **Courses**, **Conferences**, or **Weekly Meeting**. Otherwise, it will not appear. In fact, this is a good way to hide old events that shouldn't be displayed but aren't ready to be deleted. Because events have different dates or can be recurring, **Text_date** is used only for display purposes. This gives it flexibility in its format. **start_date** is read as a date. It is formatted as YYYY-MM-DD. It is used to sort the events, from earliest to latest. Some recurring events are set far into the past, to make sure they always appear on top. 
+
+```
+ - title: 
+   location:
+   desc: 
+   event_url:
+   section: ## Sections: Courses, Conferences, Weekly Meeting
+   text_date: ## <string> For Display
+   start_date:  ## <YYYY-MM-DD For Sorting
 ```

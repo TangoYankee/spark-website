@@ -1,0 +1,82 @@
+ ## Template
+  # - title: 
+  #  location:
+  #  desc: 
+  #  event_url:
+  #  section: ## Sections: Courses, Conferences, Weekly Meeting
+  #  text_date: ## <string> For Display
+  #  start_date:  ## <YYYY-MM-DD For Sorting
+
+ - title: STEAM Library Activities
+   location: Mitchell Memorial Library, 510 Travis Ave Travis AFB, CA 94535
+   desc: Activities for students to learn about Science, Technology, Engineering, Art, and Mathematics (STEAM). Past events include designing and building a toy roller coaster to learn about physics. Children 8 years and under must be accompanied by an adult.
+   event_url: http://www.mitchellmemoriallibrary.org/
+   section: Weekly Meeting ## Sections: Courses, Conferences, Weekly Meeting
+   text_date: 3:00-5:00 pm, Wednesdays ## <string> For Display
+   start_date: 1900-01-02 ## <YYYY-MM-DD For Sorting
+ 
+ - title: Phoenix Spark Working Lunch
+   location: Phoenix Spark Lab Building 181 (6 ARS 1st Floor) Travis AFB, CA
+   desc: An open space for current and potential participants to update ongoing projects and pitch ideas.
+   event_url: https://www.google.com/maps/place/Phoenix+Spark/@38.2675033,-121.9395763,17z/data=!3m1!4b1!4m5!3m4!1s0x80853fabcc171347:0x871cbb4a5624e727!8m2!3d38.2674991!4d-121.9373876
+   section: Weekly Meeting 
+   text_date: 12:00 pm, Fridays ## <string> For Display
+   start_date: 1900-01-01 ## <YYYY-MM-DD For Sorting
+
+ - title: The Air Force Information Technology & Cyberpower (AFITC) Conference 
+   location: Montgomery, Alabama
+   desc: The AFITC Conference is the place where Air Force personnel and decision makers, as well as private industry IT and cyber security leaders, convene to not only share and review strategies but also explore the latest in cyber tools, software, and hardware.
+   event_url: https://www.afitc-event.com/
+   section: # Conferences
+   text_date: 'Aug 27th-29th, 2018'
+   start_date: 2018-08-27
+
+ - title: Defense Executive Technology Entrepreneurs Course (DETEC)
+   location: Austin, TX
+   desc: DETEC is not a traditional classroom training course. It is modeled after executive education seminars from top MBA programs. The format of the course combines seminar-style discussion, dynamic presentations from experienced leaders, interactive design thinking workshops, and in-person events with tech executives and leaders across government. The fast-paced DETEC course will arm participants with an actionable plan to drive innovation across their organization. Participants will workshop their existing challenges throughout a three day program. Hands-on expert-led workshops help leaders identify the right tech solutions, lead effective implementation and measurement, and manage transformation across teams and stakeholders. Leaders will leave the DETEC program with practical knowledge, a tactical plan tailored to their organization, and an exceptional network of peers and coaches to provide ongoing support. 
+   event_url: https://detec.dcode.co/
+   section: Conferences
+   text_date: 'March 26-29, 2019'
+   start_date: 2019-03-15
+   
+ - title: NVIDIA’s GPU Technology Conference (GTC)
+   location: San Jose, CA
+   desc: GTC is the premier AI and deep learning conference series, providing you with training, insights, and direct access to experts from NVIDIA and other leading organizations.
+   event_url: https://www.nvidia.com/en-us/gtc-dc/
+   section: Conferences
+   text_date: 'March 18-22, 2019'
+   start_date: 2019-03-18
+
+ - title: Phoenix Spark Programming Event
+   location: Innovation Lab
+   desc: 
+     Phoenix Spark is hosting an event for Airmen to demonstrate and develop their coding capabilities. This is an opporunity to network, build diverse teams,
+     and learn together. Participants will choose from a set of problems and build solutions in Python, Swift, Java, HTML/CSS/Javascript, and Powershell.
+   event_url: https://travisspark.org/contact
+   section: # Conferences ## Sections: Courses, Conferences, Weekly Meeting
+   text_date: 3:00 pm 26th Oct, 2018 ## <string> For Display
+   start_date: 2018-10-26 ## <YYYY-MM-DD For Sorting
+
+ - title: Air Force Additive Manufacturing Technical Interchange Meeting (AFAMTIM)
+   location: Dayton, OH
+   desc: AFAMTIM is the premier USAF Additive Manufacturing (AM) showcase offering technology demonstrations, collaborative learning opportunities, USAF AM polymer operator qualification, and insight into future technologies around AM to ultimately accelerate the technical transition and adoption of AM within the USAF.
+   event_url: http://www.afcpo.com/additivemanufacturing.html
+   section: # Conferences
+   text_date: 'Sep 26-28, 2018' #For Display
+   start_date: 2018-09-26 #For Sorting
+
+ - title: OPM Center for Leadership Development
+   location: Throughout the U.S.
+   desc: The OPM’s Center for Leadership Development is dedicated to developing great leaders for the Federal Government. Our faculty and facilitators—drawn from America’s elite corps of leadership development professionals—provide personalized services to help you focus on the developmental opportunities that will propel you to an outstanding level of performance excellence.
+   event_url: https://www.opm.gov/services-for-agencies/center-for-leadership-development/about-us/#url=Overview
+   section: Courses
+   text_date: Ongoing #For Display
+   start_date: 2100-01-01 #For Sorting
+
+ - title: Sacramento Hacker Lab 
+   location: 1715 I St, Sacramento
+   desc: An all-in-one makerspace, coworking facility, and startup incubator. We bring people, training, and advanced prototyping equipment together under one roof, giving innovators the opportunity to bring their vision to life.
+   event_url: https://sacramento.hackerlab.org/en/events
+   section: Courses 
+   text_date: Ongoing ## <string> For Display
+   start_date: 2020-01-01 ## <YYYY-MM-DD For Sorting
