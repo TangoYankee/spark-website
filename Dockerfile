@@ -11,4 +11,5 @@ RUN bundle install
 
 COPY . .
 
-CMD ["bundle exec jekyll", "serve"]
+EXPOSE 4000
+CMD ["jekyll", "serve"]
