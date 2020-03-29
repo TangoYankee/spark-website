@@ -264,8 +264,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   github-pages (= 186)
   html-proofer (= 3.9.1)
+  i18n
   jekyll (~> 3.4)
   jekyll-remote-theme
   uswds-jekyll!
